@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(64, 81, 59);
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    width: auto;
+    height: 100px;
+    background-color: rgb(96, 153, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 160px;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(51, 52, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* adding a new exercise */
+
+nav {
+    width: auto;
+    height: 50px;
+    background-color: rgb(157, 192, 139);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav p {
+color: rgb(51, 52, 49);
+margin: 0;
+padding-right: 10px;
+transition: ease-in-out 0.5s;
+}
+
+nav p:hover{
+    cursor: pointer;
+    color: rgb(237, 241, 214);;
+}
+
+/* card's style */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.card {
+    background-color: rgb(183, 183, 138);
+    height: auto;
+    width: 350px;
+    margin: 20px;
+    display: grid;
+    justify-self: center;
+    border-radius: 8%;
+    padding: 0;
+}
+
+.card p, .card h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card ol{
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 20px;
+}
+
+.card span {
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+.card a:hover {
+    color: rgb(237, 241, 214);
+}
