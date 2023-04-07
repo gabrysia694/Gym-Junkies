@@ -68,6 +68,7 @@ main {
     justify-self: center;
     border-radius: 8%;
     padding: 0;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card p, .card h2 {
@@ -94,9 +95,11 @@ main {
     transition: ease-in-out 0.5s;
 }
 
-.card a:hover {
-    color: rgb(237, 241, 214);
+.card:hover {
+    transform: translateY(-5px);
+    background-color: rgb(44, 56, 41);
 }
+
 
 /* media query for phones */
 
