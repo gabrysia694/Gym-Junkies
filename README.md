@@ -27,4 +27,4 @@ Template:
 
 ```
 
-Please fill out the following exercise template by providing a name for your exercise, and listing each step within the numbered `<li></li>` tags. Aim to keep the steps concise (1 sentence each) and under 5 in total. Also, include a link to a relevant YouTube video of the exercise and your name along with your preferred social media handle in the "Added by" section. Please add your code below the commented location within the `index.html` file. 
+Please fill out the following exercise template by providing a name for your exercise, and listing each step within the numbered `<li></li>` tags. Aim to keep the steps concise (1 sentence each) and under 5 in total. Also, include a link to a relevant YouTube video of the exercise and your name along with your preferred social media handle in the "Added by" section. Please add your code below the commented location within the `index.html` file.
