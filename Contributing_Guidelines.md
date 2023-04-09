@@ -52,6 +52,8 @@ A little tutorial for creating a pull request if needed <a href="https://docs.gi
 </div>
 ```
 
+Please fill out the following exercise template by providing a name for your exercise, and listing each step within the numbered `<li></li>` tags. Aim to keep the steps concise (1 sentence each) and under 5 in total. Also, include a link to a relevant YouTube video of the exercise and your name along with your preferred social media handle in the "Added by" section. Please add your code below the commented location within the `index.html` file.
+
 # Code of Conduct
 
 We have adopted a Code of Conduct that we expect all contributors to adhere to. Please read the [CODE_OF_CONDUCT.md](https://github.com/gabrysia694/Gym-Junkies/blob/main/CODE_OF_CONDUCT.md) file in the repository before making any contributions.
