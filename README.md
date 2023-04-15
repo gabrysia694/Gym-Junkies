@@ -1,3 +1,5 @@
+CHECKOUT THE LIVE VERSION : https://gym-junkies.netlify.app/
+
 Are you interested in contributing to an open source project, but not sure where to start? You've come to the right place!
 
 I'm inviting you to join our community and make your first contribution to this project. Whether you're a student, a self-taught programmer, or simply curious about open source, we welcome everyone who is eager to learn and contribute.
