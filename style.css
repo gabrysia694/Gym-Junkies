@@ -112,3 +112,22 @@ main {
         margin: 0;
     }
 }
+
+/* socials footer */
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
+}
