@@ -14,4 +14,3 @@ allCards.forEach(card => {
     });
   });
 });
-
