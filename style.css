@@ -71,6 +71,10 @@ main {
     transition: transform 0.3s ease-in-out;
 }
 
+.card:hover{
+    cursor: pointer;
+}
+
 .card p, .card h2 {
     display: flex;
     justify-content: center;
@@ -144,10 +148,15 @@ main {
 /*i-frame and hidden class*/
 
 iframe{
+    margin-top: 1rem;
     width: 100%;
     height: 85%;
 }
 
 .hidden{
     display:none;
+}
+
+button:hover{
+    cursor: pointer;
 }
