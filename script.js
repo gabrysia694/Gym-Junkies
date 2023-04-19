@@ -15,4 +15,3 @@ allCards.forEach(card => {
   });
 });
 
-'
