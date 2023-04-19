@@ -94,6 +94,9 @@ main {
     text-decoration: none;
     transition: ease-in-out 0.5s;
 }
+.card a:hover{
+    color: white;
+}
 
 .card a:hover{
     cursor: pointer;
@@ -103,6 +106,7 @@ main {
 .card:hover {
     transform: translateY(-5px);
     background-color: rgb(44, 56, 41);
+    color: white;
 }
 
 
