@@ -95,6 +95,11 @@ main {
     transition: ease-in-out 0.5s;
 }
 
+.card a:hover{
+    cursor: pointer;
+    color: rgb(237, 241, 214);;
+}
+
 .card:hover {
     transform: translateY(-5px);
     background-color: rgb(44, 56, 41);
@@ -131,6 +136,7 @@ main {
   list-style: none;
   font-size: 1.5rem;
 }
+<<<<<<< HEAD
 
 
 iframe{
@@ -140,4 +146,8 @@ iframe{
 
 .hidden{
     display:none;
+=======
+.copyright{
+    text-align: center;
+>>>>>>> upstream/main
 }
