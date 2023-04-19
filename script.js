@@ -1,3 +1,4 @@
+/* JavaScript Code of the cards to play video */
 const allCards = document.querySelectorAll('.card');
 
 allCards.forEach(card => {
@@ -14,3 +15,4 @@ allCards.forEach(card => {
     });
   });
 });
+

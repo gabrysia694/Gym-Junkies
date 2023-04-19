@@ -136,8 +136,12 @@ main {
   list-style: none;
   font-size: 1.5rem;
 }
-<<<<<<< HEAD
+.copyright{
+    text-align: center;
+}
 
+
+/*i-frame and hidden class*/
 
 iframe{
     width: 100%;
@@ -146,8 +150,4 @@ iframe{
 
 .hidden{
     display:none;
-=======
-.copyright{
-    text-align: center;
->>>>>>> upstream/main
 }
