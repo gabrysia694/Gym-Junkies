@@ -14,3 +14,5 @@ allCards.forEach(card => {
     });
   });
 });
+
+'
