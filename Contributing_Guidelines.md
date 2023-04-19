@@ -47,9 +47,14 @@ A little tutorial for creating a pull request if needed <a href="https://docs.gi
       <li></li>
       <li></li>
     </ol>
-  <span> See the exercise <a href="" target="_blank"> here! </a></span>
+  <span> See the exercise here!</span>
   <span> Added by <a href="" target="_blank"> Your Name </a></span>
 </div>
+
+ <div class="iframe-container hidden">
+      <iframe src="" frameborder="0"></iframe> // add the video-link in the src here adding 'embed' between video I.D. and youtube.com like https://www.youtube.com/embed/videoid
+      <button class="back"> Show Exercise Card </button>
+    </div>
 ```
 
 Please fill out the following exercise template by providing a name for your exercise, and listing each step within the numbered `<li></li>` tags. Aim to keep the steps concise (1 sentence each) and under 5 in total. Also, include a link to a relevant YouTube video of the exercise and your name along with your preferred social media handle in the "Added by" section. Please add your code below the commented location within the `index.html` file.
