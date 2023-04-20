@@ -17,7 +17,13 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 mt-16 border-t flex gap-3 border-gray-100 dark:border-gray-800   sm:justify-between lg:mt-24">
-          <p className="text-white">Under MIT License</p>
+          <a
+          href="https://github.com/gabrysia694/Gym-Junkies/blob/main/LICENSE"
+          target="_blank" 
+          className="text-white"
+          >
+          Under MIT License
+          </a>
 
           <a
             href="https://github.com/gabrysia694/Gym-Junkies"
