@@ -1,4 +1,4 @@
-CHECKOUT THE LIVE VERSION : https://gym-junkies.netlify.app/
+CHECKOUT THE LIVE VERSION : https://gymjunkies.netlify.app
 
 # Gym Junkies 💫
 
