@@ -162,5 +162,17 @@
         "videoLink": "https://www.youtube.com/watch?v=VIoihl5ZZzM",
         "gh-name": "KyloRen04",
         "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/sumo-deadlift-high-pull.png"
-    }
+    },
+    {
+        "exercise": "Dumbbell Overhead Extension",
+        "instructions": [
+        "Stand upright with your feet shoulder-width apart, holding a dumbbell in each hand with an overhand grip.",
+        "Raise the dumbbells above your head with your palms facing each other and your elbows pointing forward.",
+        "Lower the dumbbells behind your head by bending your elbows until your forearms touch your biceps.",
+        "Extend your arms back up to the starting position by straightening your elbows."
+        ],
+        "videoLink": "https://www.youtube.com/embed/kDbUNTX-Xts",
+        "gh-name": "sagar-io",
+        "image": "https://s3.amazonaws.com/prod.skimble/assets/1375615/image_iphone.jpg"
+      }
 ]

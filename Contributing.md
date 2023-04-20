@@ -27,7 +27,7 @@ Thank you for considering contributing to Gym-Junkies! Please take a moment to r
 {
   "exercise": "Exercise Name",
   "instructions": ["Instruction 1", "Instruction 2", "Instruction 3"],
-  "videoLink": " Youube video link",
+  "videoLink": " Youtube video link",
   "gh-name": "Your Github username",
   "image": "Excercise image link"
 }
