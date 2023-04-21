@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -13,10 +14,13 @@ export default function Navbar() {
         ></img>
       </a>
 
-      <ul className="flex items-center gap-2 text-[1.2rem] font-bold  text-black hover:bg-gray-100 rounded-md p-1">
+      <ul className="flex flex-wrap items-center gap-2 text-[1rem]   text-black">
+        <li className="rounded-lg px-2   hover:bg-gray-100  p-1">
+          <Link to="/GuidePage">Guide</Link>
+        </li>
         <li>
           <a
-            className="rounded-lg px-3 py-2 "
+            className="rounded-lg px-3 py-2  hover:bg-gray-100  p-1 "
             href="https://github.com/gabrysia694/Gym-Junkies"
             target="_blank"
             rel="noreferrer"
