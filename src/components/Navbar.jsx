@@ -19,15 +19,12 @@ export default function Navbar() {
           <Link to="/GuidePage">Guide</Link>
         </li>
         <li>
-          <a
+          <Link
             className="rounded-lg px-3 py-2  hover:bg-gray-100  p-1 "
-            href="https://github.com/gabrysia694/Gym-Junkies"
-            target="_blank"
-            rel="noreferrer"
+            to="/DocsPage"
           >
-            {" "}
-            Add your card{" "}
-          </a>
+            Docs
+          </Link>
         </li>
       </ul>
     </nav>
