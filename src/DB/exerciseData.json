@@ -201,5 +201,30 @@
     "videoLink": "https://www.youtube.com/embed/kDbUNTX-Xts",
     "gh-name": "sagar-io",
     "image": "https://s3.amazonaws.com/prod.skimble/assets/1375615/image_iphone.jpg"
+  },
+  {
+    "exercise": "Barbell Squats",
+    "instructions": [
+      "Begin by standing with your feet shoulder-width apart, with a barbell placed on the rack at shoulder height.",
+      "Step forward and position yourself under the barbell so it rests on your traps (the muscles at the base of your neck).",
+      "Grasp the bar with both hands, slightly wider than shoulder-width apart, and lift it off the rack.",
+      "Keeping your back straight, slowly lower your body by bending at the knees and hips, while keeping your chest lifted.",
+      "Lower your body until your thighs are parallel to the ground or just below, then push through your heels to return to a standing position."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=gcNh17Ckjgg&pp=ygUNYmFyYmVsbCBzcXVhdA%3D%3D",
+    "gh-name": "BEN HARRI MOHAMMED",
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-full-squat.gif"
+  },
+  {
+    "exercise": "Dumbbell Shoulder Press",
+    "instructions": [
+      "Begin by sitting on a bench with your back straight, holding a dumbbell in each hand.",
+      "With your palms facing forward, lift the dumbbells to shoulder level, elbows bent at a 90-degree angle.",
+      "Straighten your arms and press the dumbbells upward until they touch above your head.",
+      "Slowly lower the dumbbells back to shoulder level, keeping your elbows at a 90-degree angle, and repeat for the desired number of repetitions."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=CdF3p8SQ4pU&pp=ygUdRHVtYmJlbGwgU2hvdWxkZXIgUHJlc3Mgc3F1YXQ%3D",
+    "gh-name": "BEN HARRI MOHAMMED",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Shoulder-Press.gif"
   }
 ]
