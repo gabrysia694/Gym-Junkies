@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HomePage from "./pages/HomePage";
+import GuidePage from "./pages/GuidePage";
 
 function App() {
   return (
     <>
       <Navbar />
-      <HomePage />
+      <GuidePage />
       <Footer />
     </>
   );
