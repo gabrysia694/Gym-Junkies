@@ -1,5 +1,18 @@
 [
   {
+    "exercise": "Bicep Curl",
+    "instructions": [
+      "Stand with feet about hip-width apart, with your abs engaged while holding a meidum-heavy dumbells/barbell with your palm facing foward.",
+      "Squeeze your biceps and bend the arms, curling the weights towards the shoulders.",
+      "Do this while keeping the elbows stationary and only bringing the weight as high as you can.",
+      "Now lowly lower the weights, keeping a slight bend in the elbows at the bottom.",
+      "Repeat this for 2-3 sets for 10-12 reps."
+    ],
+    "videoLink": "https://youtu.be/ykJmrZ5v0Oo",
+    "gh-name": "druvkotwani",
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/01/inner-bicep-curl.gif"
+  },
+  {
     "exercise": "Chest Dips",
     "instructions": [
       "Start by positioning the body facing the dip station with the feet should widht apart and hands holding the bars.",
@@ -10,7 +23,7 @@
       "Repeat for desired number of repetitions."
     ],
     "videoLink": "https://www.youtube.com/shorts/ci5tcFgIntI",
-    "gh-name": "druv_kotwani",
+    "gh-name": "druvkotwani",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/chest-dip-movement.gif"
   },
   {
