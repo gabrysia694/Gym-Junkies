@@ -9,7 +9,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <img
-                alt="Gym"
+                alt="a girl doing exercises"
                 src="https://plus.unsplash.com/premium_photo-1664109999537-088e7d964da2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
@@ -33,7 +33,7 @@ export default function HomePage() {
       <section>
         <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="bg-blue-600 p-8 md:p-12 lg:px-16 lg:py-24">
+            <div className="bg-blue-900 p-8 md:p-12 lg:px-16 lg:py-24">
               <div className="mx-auto max-w-xl text-center">
                 <h2 className="text-2xl font-bold text-white md:text-3xl">
                   Your One-Stop Destination for Total Body Transformation{" "}
@@ -50,7 +50,7 @@ export default function HomePage() {
                 <div className="mt-4 md:mt-8">
                   <Link
                     to="/GuidePage"
-                    className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white"
+                    className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-900 transition hover:bg-transparent hover:text-white"
                   >
                     Get Started Today
                   </Link>
@@ -60,15 +60,17 @@ export default function HomePage() {
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
               <img
-                alt="Student"
+                alt="Gym room"
                 src="https://images.unsplash.com/photo-1590487988256-9ed24133863e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80"
                 className="h-40 w-full object-cover sm:h-56 md:h-full"
+                loading="lazy"
               />
 
               <img
-                alt="Student"
+                alt="a girl doing exercises"
                 src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 className="h-40 w-full object-cover sm:h-56 md:h-full"
+                loading="lazy"
               />
             </div>
           </div>
@@ -94,8 +96,9 @@ export default function HomePage() {
               <div className="relative block group">
                 <img
                   src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                  alt=""
-                  className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  alt="exercise"
+                  loading="lazy"
+                  className="object-cover h-full w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
               </div>
             </li>
@@ -104,8 +107,9 @@ export default function HomePage() {
               <div className="relative block group">
                 <img
                   src="https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                  alt=""
-                  className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  alt="exercise"
+                  loading="lazy"
+                  className="object-cover h-full w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
               </div>
             </li>
@@ -114,8 +118,9 @@ export default function HomePage() {
               <div className="relative block group">
                 <img
                   src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                  alt=""
-                  className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  alt="exercise"
+                  loading="lazy"
+                  className="object-cover h-full w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
               </div>
             </li>

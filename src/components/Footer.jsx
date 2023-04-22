@@ -18,11 +18,11 @@ export default function Footer() {
 
         <div className="pt-8 mt-16 border-t flex gap-3 border-gray-100 dark:border-gray-800   sm:justify-between lg:mt-24">
           <a
-          href="https://github.com/gabrysia694/Gym-Junkies/blob/main/LICENSE"
-          target="_blank" 
-          className="text-white"
+            href="https://github.com/gabrysia694/Gym-Junkies/blob/main/LICENSE"
+            target="_blank"
+            className="text-white"
           >
-          Under MIT License
+            Under MIT License
           </a>
 
           <a
@@ -30,6 +30,7 @@ export default function Footer() {
             rel="noreferrer"
             target="_blank"
             className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+            aria-label="GitHub repository for Gym Junkies"
           >
             <FaGithub className="text-2xl" />
           </a>

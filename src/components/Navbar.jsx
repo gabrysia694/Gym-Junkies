@@ -10,7 +10,9 @@ export default function Navbar() {
       <a href="/">
         <img
           src="https://user-images.githubusercontent.com/88102392/233238344-b05e3c5d-178e-4a7b-9757-60063fb0f969.png"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-lg"
+          className="inline-flex h-[1] w-10 items-center justify-center rounded-lg" // don't change logo's height and width here
+          alt="Gym Junkies logo"
+          loading="lazy"
         ></img>
       </a>
 

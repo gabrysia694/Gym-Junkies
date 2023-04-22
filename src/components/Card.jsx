@@ -11,12 +11,13 @@ export default function Card() {
         >
           <div className="md:flex items-center  ">
             <img
-              className="  w-full object-cover md:h-full md:w-48"
+              className="w-full object-cover h-full md:w-48"
+              loading="lazy"
               src={exercise.image}
               alt={exercise.exercise}
             />
             <div className="p-8">
-              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              <div className="uppercase tracking-wide text-sm text-indigo-800 font-semibold">
                 {exercise.exercise}
               </div>
 
@@ -30,7 +31,7 @@ export default function Card() {
                   href={exercise.videoLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-indigo-500 hover:text-indigo-600 font-semibold"
+                  className="text-indigo-800 hover:text-indigo-600 font-semibold"
                 >
                   Watch video
                 </a>
@@ -40,7 +41,7 @@ export default function Card() {
                     href={`https://github.com/${exercise["gh-name"]}`}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-indigo-500 hover:text-indigo-600 font-semibold"
+                    className="text-indigo-800 hover:text-indigo-600 font-semibold"
                   >
                     {exercise["gh-name"]}
                   </a>
