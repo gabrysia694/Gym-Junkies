@@ -1,0 +1,23 @@
+
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /signup
+Disallow: /reset-password
+Disallow: /checkout
+Disallow: /cart
+Disallow: /search
+Disallow: /profile
+Disallow: /settings
+Disallow: /404
+Disallow: /500
+
+# Allow indexing of the homepage and other pages
+Allow: /
+
+# Allow crawling of static assets and resources
+Allow: /static/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
