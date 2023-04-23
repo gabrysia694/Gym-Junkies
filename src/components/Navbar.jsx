@@ -1,7 +1,6 @@
-import React,{useContext} from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../context/theme";
-
 
 export default function Navbar() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -20,19 +19,21 @@ export default function Navbar() {
       </a>
 
       <ul className="flex flex-wrap items-center gap-2 text-[1rem]">
-        <li className="rounded-lg px-2   hover:bg-slate-400  p-1">
+        <li className="rounded-lg px-2   hover:bg-gray-200  p-1">
           <Link to="/GuidePage">Guide</Link>
         </li>
         <li>
           <Link
-            className="rounded-lg px-3 py-2  hover:bg-slate-500  p-1 "
+            className="rounded-lg px-3 py-2  hover:bg-gray-200  p-1 "
             to="/DocsPage"
           >
             Docs
           </Link>
         </li>
       </ul>
-  <button onClick={toggleTheme} className="text-2xl">{theme.icon}</button>
+      <button onClick={toggleTheme} className="text-2xl">
+        {theme.icon}
+      </button>
     </nav>
   );
 }
