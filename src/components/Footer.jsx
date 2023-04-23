@@ -29,7 +29,7 @@ export default function Footer() {
             href="https://github.com/gabrysia694/Gym-Junkies"
             rel="noreferrer"
             target="_blank"
-            className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+            className="text-gray-100 transition hover:opacity-75 dark:text-gray-200"
           >
             <FaGithub className="text-2xl" />
           </a>

@@ -20,7 +20,7 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold sm:text-4xl">
                 Your Ultimate Destination for a Healthier You!
               </h2>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 ">
                 we believe that fitness should be fun and enjoyable. That's why
                 we've created a vibrant and friendly atmosphere where you can
                 connect with like-minded individuals and make new friends. Join
@@ -80,11 +80,11 @@ export default function HomePage() {
       <section>
         <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
           <header className="text-center">
-            <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
+            <h2 className="text-xl font-bold  sm:text-3xl">
               Your Ultimate Destination for Fitness
             </h2>
 
-            <p className="max-w-md mx-auto mt-4 text-gray-500">
+            <p className="max-w-md mx-auto mt-4 ">
               Our state-of-the-art facility and expert trainers are here to help
               you achieve your fitness goals, whether you're just starting out
               or are a seasoned pro.

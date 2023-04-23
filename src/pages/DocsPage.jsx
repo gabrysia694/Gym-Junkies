@@ -9,7 +9,7 @@ export default function DocsPage() {
   "image": "Excercise image link"
 }`;
   return (
-    <section className="relative isolate overflow-hidden bg-[#f5f6fa] px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <section className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       {/* For Grid Background  */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
@@ -38,8 +38,8 @@ export default function DocsPage() {
       </div>
 
       <article className="grid justify-center items-center max-w-5xl mx-auto ">
-        <div className="  text-base leading-7 text-black">
-          <p className="mb-5 text-xl font-bold tracking-tight text-black ">
+        <div className="  text-base leading-7">
+          <p className="mb-5 text-xl font-bold tracking-tight">
             Follow these steps to add your guides from Github
           </p>
           <div className="flex items-center gap-5">
