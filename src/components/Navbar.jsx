@@ -1,14 +1,20 @@
-import React,{useContext} from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
 import { ThemeContext } from "../context/theme";
+import { NavLink } from "react-router-dom";
+import clsx from "clsx";
 
+function navLinkClass(isActive) {
+  return clsx("rounded-lg p-1 px-3 py-2 hover:bg-slate-400", {
+    "bg-slate-400": isActive,
+  });
+}
 
 export default function Navbar() {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
     <nav
       aria-label="Site Nav"
-      className="mx-auto flex max-w-3xl items-center justify-between p-4"
+      className="flex items-center justify-between max-w-3xl p-4 mx-auto"
     >
       <a href="/">
         <img
@@ -20,19 +26,26 @@ export default function Navbar() {
       </a>
 
       <ul className="flex flex-wrap items-center gap-2 text-[1rem]">
-        <li className="rounded-lg px-2   hover:bg-slate-400  p-1">
-          <Link to="/GuidePage">Guide</Link>
+        <li>
+          <NavLink
+            to="/GuidePage"
+            className={({ isActive }) => navLinkClass(isActive)}
+          >
+            Guide
+          </NavLink>
         </li>
         <li>
-          <Link
-            className="rounded-lg px-3 py-2  hover:bg-slate-500  p-1 "
+          <NavLink
+            className={({ isActive }) => navLinkClass(isActive)}
             to="/DocsPage"
           >
             Docs
-          </Link>
+          </NavLink>
         </li>
       </ul>
-  <button onClick={toggleTheme} className="text-2xl">{theme.icon}</button>
+      <button onClick={toggleTheme} className="text-2xl">
+        {theme.icon}
+      </button>
     </nav>
   );
 }
