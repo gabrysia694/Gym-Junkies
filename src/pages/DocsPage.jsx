@@ -51,7 +51,7 @@ export default function DocsPage() {
           <img
             src="https://user-images.githubusercontent.com/88102392/233709521-6e8f7276-7f1b-4713-88f1-b6d40c88f421.png"
             alt="Fork the repo"
-            className="mt-5 h-full"
+            className="mt-5 object-fit"
             loading="lazy"
           />
           <div className="mt-5 flex items-center gap-5">
@@ -67,7 +67,7 @@ export default function DocsPage() {
           <img
             src="https://user-images.githubusercontent.com/88102392/233709843-afc4cc88-4a9e-4607-9903-61aef80025db.png"
             alt=" Click on Go to file"
-            className="mt-5  h-full"
+            className="mt-5  object-fit"
             loading="lazy"
           />
 
@@ -90,7 +90,7 @@ export default function DocsPage() {
             src="https://user-images.githubusercontent.com/88102392/233711184-ef52293f-2114-4adb-b609-3fbd236f6445.png"
             loading="lazy"
             alt="Commit your changes"
-            className="mt-5  h-full"
+            className="mt-5  object-fit"
           />
           <div className="flex items-center gap-5 mt-5">
             <p className="text-base font-semibold leading-7 text-indigo-600">
@@ -101,7 +101,7 @@ export default function DocsPage() {
           <img
             src="https://user-images.githubusercontent.com/88102392/233711649-5dbe634b-5ae6-4ea2-a77f-389eacd31dc3.png"
             alt="Create Pull Request & wait for merge"
-            className="mt-5 h-full"
+            className="mt-5 object-fit"
             loading="lazy"
           />
         </div>
