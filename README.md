@@ -1,4 +1,4 @@
-![Gym Junkies](https://user-images.githubusercontent.com/88102392/233525341-b8de700d-9077-4e9f-ba2d-77c581d32f72.png)
+![obraz_2023-04-24_201509119](https://user-images.githubusercontent.com/97764356/234081493-ca1a49c3-c27b-4d22-9f20-5b24abbf3350.png)
 
 # Gym Junkies 💫
 
