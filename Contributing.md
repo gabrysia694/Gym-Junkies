@@ -17,6 +17,8 @@ Thank you for considering contributing to Gym-Junkies! Please take a moment to r
    > `pnpm install`
 2. run the app
    > `pnpm dev`
+   or
+   >  `npm run dev`
 
 ## Add your card
 

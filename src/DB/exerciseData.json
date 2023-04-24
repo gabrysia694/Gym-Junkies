@@ -226,5 +226,15 @@
     "videoLink": "https://www.youtube.com/watch?v=CdF3p8SQ4pU&pp=ygUdRHVtYmJlbGwgU2hvdWxkZXIgUHJlc3Mgc3F1YXQ%3D",
     "gh-name": "BEN HARRI MOHAMMED",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Shoulder-Press.gif"
+  },
+  {
+    "exercise": "Lat Pull Down",
+    "instructions": ["Sit down on a lat pulldown machine and adjust the thigh pads so that they fit snugly against your thighs.", 
+    "Grasp the lat bar with an overhand grip that is wider than shoulder-width apart.",
+     "Pull the bar down towards your chest while keeping your elbows pointed downwards and your shoulders pulled back. Hold the contraction for a second, then slowly release the bar back to the starting position with control."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=43hWj8mfYGY",
+    "gh-name": "Raulj123",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif"
   }
 ]
