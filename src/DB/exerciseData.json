@@ -10,7 +10,8 @@
     ],
     "videoLink": "https://youtu.be/ykJmrZ5v0Oo",
     "gh-name": "druvkotwani",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/01/inner-bicep-curl.gif"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/01/inner-bicep-curl.gif",
+    "tags":["Biceps"]
   },
   {
     "exercise": "Chest Dips",
@@ -24,7 +25,8 @@
     ],
     "videoLink": "https://www.youtube.com/shorts/ci5tcFgIntI",
     "gh-name": "druvkotwani",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/chest-dip-movement.gif"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/chest-dip-movement.gif",
+    "tags": ["Chest", "Triceps", "Shoulders"]
   },
   {
     "exercise": "Sit-Ups",
@@ -36,7 +38,10 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=1fbU_MkV7NE",
     "gh-name": "jayasree-g",
-    "image": "https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/sit-up-large.png"
+    "image": "https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/sit-up-large.png",
+    "tags": ["Abdominals"]
+    
+   
   },
   {
     "exercise": "Lunges",
@@ -48,7 +53,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=3XDriUn0udo&t=10s",
     "gh-name": "gabrysia694     ",
-    "image": "https://www.burnthefatinnercircle.com/members/images/2015.png?cb=20230213043730"
+    "image": "https://www.burnthefatinnercircle.com/members/images/2015.png?cb=20230213043730",
+    "tags": ["Quadriceps", "Hamstrings", "Glutes", "Calves"]
   },
   {
     "exercise": "Push up",
@@ -60,7 +66,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=IODxDxX7oi4",
     "gh-name": "gabrysia694     ",
-    "image": "https://user-images.githubusercontent.com/88102392/233252239-3a2eb26e-45fa-4336-a294-7f622528307c.png"
+    "image": "https://user-images.githubusercontent.com/88102392/233252239-3a2eb26e-45fa-4336-a294-7f622528307c.png",
+    "tags": ["Chest", "Triceps", "Shoulders", "Core"]
   },
   {
     "exercise": "Cable Chest Flys",
@@ -72,7 +79,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=Iwe6AmxVf7o",
     "gh-name": "keshav97-git",
-    "image": "https://program.rapidloss.com.au/wp-content/uploads/female-cable-chest-fly.gif"
+    "image": "https://program.rapidloss.com.au/wp-content/uploads/female-cable-chest-fly.gif",
+    "tags": ["Chest", "Shoulders"]
   },
   {
     "exercise": "Deadlift",
@@ -84,7 +92,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=ytGaGIn3SjE",
     "gh-name": "murtazaali2828",
-    "image": "https://www.fitstream.com/images/weight-training/exercises/deadlift-one.png"
+    "image": "https://www.fitstream.com/images/weight-training/exercises/deadlift-one.png",
+    "tags": ["Hamstrings", "Glutes", "Lower Back", "Traps", "Forearms"]
   },
   {
     "exercise": "Squats",
@@ -96,7 +105,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=gsNoPYwWXeM",
     "gh-name": "SaswataH",
-    "image": "https://blog.enarahealth.com/wp-content/uploads/2022/03/PngItem_2810409-e1647565708516.png"
+    "image": "https://blog.enarahealth.com/wp-content/uploads/2022/03/PngItem_2810409-e1647565708516.png",
+    "tags": ["Quadriceps", "Hamstrings", "Glutes", "Calves", "Lower Back", "Core"]
   },
   {
     "exercise": "Dumbbell rows",
@@ -109,7 +119,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=roCP6wCXPqo",
     "gh-name": "bilalakhter",
-    "image": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Bent-Over-Row-_Single-Arm_49867db3-f465-4fbc-b359-29cbdda502e2_600x600.png?v=1612138069"
+    "image": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Bent-Over-Row-_Single-Arm_49867db3-f465-4fbc-b359-29cbdda502e2_600x600.png?v=1612138069",
+    "tags": ["Back", "Biceps", "Shoulders"]
   },
   {
     "exercise": "Planks",
@@ -122,7 +133,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=BQu26ABuVS0",
     "gh-name": "Shalini469717",
-    "image": "https://www.burnthefatinnercircle.com/members/images/826b.png?cb=20230213043654"
+    "image": "https://www.burnthefatinnercircle.com/members/images/826b.png?cb=20230213043654",
+    "tags": ["Core", "Shoulders", "Lower Back"]
   },
   {
     "exercise": "Glute Bridge",
@@ -136,7 +148,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=OUgsJ8-Vi0E",
     "gh-name": "Vishal-Parasram",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/11/dumbbell-glute-bridge-1024x264.png"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/11/dumbbell-glute-bridge-1024x264.png",
+    "tags": ["Glutes", "Hamstrings", "Lower Back", "Core"]
   },
   {
     "exercise": "Pull up",
@@ -148,7 +161,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=fO3dKSQayfg",
     "gh-name": "Poonam1607",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/pull-up-1024x907.png"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/pull-up-1024x907.png",
+    "tags": ["Back", "Biceps", "Forearms", "Shoulders"]
   },
   {
     "exercise": "Bench press",
@@ -162,7 +176,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=gRVjAtPip0Y",
     "gh-name": "hyeongwookjang",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/decline-bench-press-1024x566.png"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/decline-bench-press-1024x566.png",
+    "tags": ["Chest", "Triceps", "Shoulders"]
   },
   {
     "exercise": "Skull Crushers",
@@ -175,7 +190,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=hLdIJdhVA2Q",
     "gh-name": "RahulRana701",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-lying-skullcrusher.png"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-lying-skullcrusher.png",
+    "tags": ["Triceps"]
   },
   {
     "exercise": "Upright Rows",
@@ -188,7 +204,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=VIoihl5ZZzM",
     "gh-name": "KyloRen04",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/sumo-deadlift-high-pull.png"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/sumo-deadlift-high-pull.png",
+    "tags": ["Shoulders", "Traps", "Biceps", "Forearms"]
   },
   {
     "exercise": "Dumbbell Overhead Extension",
@@ -200,7 +217,8 @@
     ],
     "videoLink": "https://www.youtube.com/embed/kDbUNTX-Xts",
     "gh-name": "sagar-io",
-    "image": "https://s3.amazonaws.com/prod.skimble/assets/1375615/image_iphone.jpg"
+    "image": "https://s3.amazonaws.com/prod.skimble/assets/1375615/image_iphone.jpg",
+    "tags": ["Triceps"]
   },
   {
     "exercise": "Barbell Squats",
@@ -213,7 +231,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=gcNh17Ckjgg&pp=ygUNYmFyYmVsbCBzcXVhdA%3D%3D",
     "gh-name": "BEN HARRI MOHAMMED",
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-full-squat.gif"
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-full-squat.gif",
+    "tags": ["Quadriceps", "Hamstrings", "Glutes", "Calves", "Lower Back", "Core"]
   },
   {
     "exercise": "Dumbbell Shoulder Press",
@@ -225,7 +244,8 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=CdF3p8SQ4pU&pp=ygUdRHVtYmJlbGwgU2hvdWxkZXIgUHJlc3Mgc3F1YXQ%3D",
     "gh-name": "BEN HARRI MOHAMMED",
-    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Shoulder-Press.gif"
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Shoulder-Press.gif",
+    "tags": ["Triceps", "Shoulders"]
   },
   {
     "exercise": "Lat Pull Down",
@@ -235,6 +255,7 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=43hWj8mfYGY",
     "gh-name": "Raulj123",
-    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif"
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif",
+    "tags": ["Back", "Biceps", "Shoulders"]
   }
 ]
