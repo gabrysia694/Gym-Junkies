@@ -4,9 +4,12 @@ import { NavLink } from "react-router-dom";
 import clsx from "clsx";
 
 function navLinkClass(isActive) {
-  return clsx("rounded-lg p-1 px-3 py-2 hover:bg-slate-400", {
-    "bg-slate-400": isActive,
-  });
+  return clsx(
+    "rounded-full p-1 px-3 py-2 hover:bg-indigo-400 hover:text-white",
+    {
+      "bg-indigo-500 text-white ": isActive,
+    }
+  );
 }
 
 export default function Navbar() {
