@@ -8,6 +8,8 @@ import HomePage from "./pages/HomePage";
 import DocsPage from "./pages/DocsPage";
 import AddExercisePage from "./pages/AddExercisePage";
 import { ThemeContext } from "./context/theme";
+import PageNotFound from "./components/PageNotFound";
+
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -25,6 +27,7 @@ function App() {
         <Route path="/GuidePage" element={<GuidePage />} />
         <Route path="/DocsPage" element={<DocsPage />} />
         <Route path="/AddExercisePage" element={<AddExercisePage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </div>

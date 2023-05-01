@@ -20,12 +20,13 @@ export default function Card() {
               <div className="uppercase tracking-wide text-sm text-indigo-800 font-semibold">
                 {exercise.exercise}
               </div>
-
-              <ul className="p-2 text-gray-500 list-disc">
-                {exercise.instructions.map((instruction, index) => (
-                  <li key={index}>{instruction}</li>
-                ))}
-              </ul>
+              <div style={{ overflowY: 'scroll', height:'30vh' }}>
+                <ul className="p-2 text-gray-500 list-disc">
+                  {exercise.instructions.map((instruction, index) => (
+                    <li key={index}>{instruction}</li>
+                  ))}
+                </ul>
+              </div>
               <div className="mt-6 gap-5 flex items-center">
                 <a
                   href={exercise.videoLink}
