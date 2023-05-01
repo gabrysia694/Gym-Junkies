@@ -7,6 +7,8 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import DocsPage from "./pages/DocsPage";
 import { ThemeContext } from "./context/theme";
+import PageNotFound from "./components/PageNotFound";
+
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -22,6 +24,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/GuidePage" element={<GuidePage />} />
         <Route path="/DocsPage" element={<DocsPage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </div>

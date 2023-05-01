@@ -250,7 +250,7 @@
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/t-bar-row-muscles.gif"
   },
   {
-    "exercise": "heels touch",
+    "exercise": "Heels touch",
     "instructions": [
     "To do a heel touch, start by lying on your back, with your knees bent and your feet flat on the yoga mat. ", 
     "Keeping your arms out by your sides, engage your abs and lift your head and neck off the ground.", 
@@ -260,5 +260,28 @@
     "videoLink": " https://youtu.be/PtX0z5_6sdM",
     "gh-name": "gallantfarhan",
     "image": "https://homeworkouts.org/wp-content/uploads/anim-alternate-heel-touches.gif"
+  },
+  { 
+  "exercise": "Lateral Raises", 
+  "instructions": [
+  "Grab a set of dumbbells and stand straight.", 
+  "With your palms facing down, lift the dumbbells and raise your arms out to the sides.", 
+  "Once your elbows are at shoulder height, pause, and then slowly lower the arms back to the initial position.",
+  "Repeat, Add 3 sets of 8 to 12 repetitions"], 
+  "videoLink": "https://youtu.be/v_ZkxWzYnMc", 
+  "gh-name": "anamika133m", 
+  "image": "https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-lateral-raise-exercise-illustration.gif" 
+  },
+  {
+	"exercise": "Hindu Push-Ups",
+	"instructions": [
+		"Start with your hands and feet touching the floor, body bent and butt up in an upside down 'V' shape.",
+		"Then bend your elbows to bring your body towards the floor.",
+		"When your body is close to the floor, raise your upper body up as far as possible.",
+		"Then return to the original position and repeat."
+	],
+	"videoLink": "https://www.youtube.com/watch?v=nBLy1IGtSJ8",
+	"gh-name": "Himan-Miku",
+	"image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pike-to-Cobra.gif"
   }
 ]
