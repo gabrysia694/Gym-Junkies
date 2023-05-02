@@ -36,7 +36,7 @@ export default function Card() {
                 >
                   Watch video
                 </a>
-                <span>
+                <span className="text-black">
                   Added by :{" "}
                   <a
                     href={`https://github.com/${exercise["gh-name"]}`}
