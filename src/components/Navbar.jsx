@@ -42,6 +42,14 @@ export default function Navbar() {
             Docs
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => navLinkClass(isActive)}
+            to="/ContributorsPage"
+          >
+            Contributors
+          </NavLink>
+        </li>
       </ul>
       <button onClick={toggleTheme} className="text-2xl">
         {theme.icon}

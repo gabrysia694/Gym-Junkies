@@ -9,6 +9,7 @@ import DocsPage from "./pages/DocsPage";
 import AddExercisePage from "./pages/AddExercisePage";
 import { ThemeContext } from "./context/theme";
 import PageNotFound from "./components/PageNotFound";
+import ContributorsPage from "./pages/ContributorsPage";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/GuidePage" element={<GuidePage />} />
         <Route path="/DocsPage" element={<DocsPage />} />
+        <Route path="/ContributorsPage" element={<ContributorsPage />} />
         <Route path="/AddExercisePage" element={<AddExercisePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
