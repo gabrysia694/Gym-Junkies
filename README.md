@@ -28,23 +28,21 @@ To create this website we used:
 
 # Contributing ✨
 
-Are you interested in contributing to an open source project, but not sure where to start? You've come to the right place!
++ Are you interested in contributing to an open source project, but not sure where to start? You've come to the right place!
++ We're inviting you to join our community and make your first contribution to this project. 
++ Whether you're a student, a self-taught programmer, or simply curious about open source, we welcome everyone who is eager to learn and contribute.
++ You don't need to be an experienced developer to get started. There are many ways you can help us, from fixing typos in the documentation to adding new features to the website.
++ Contributing to open source is a fantastic way to learn new skills, gain practical experience, and connect with like-minded individuals.
 
-We're inviting you to join our community and make your first contribution to this project. Whether you're a student, a self-taught programmer, or simply curious about open source, we welcome everyone who is eager to learn and contribute.
+> If you're interested in getting involved, all you need to do is take a look at our Template and add your favourite exercise that makes you feel better! We're excited to have you on board!
 
-You don't need to be an experienced developer to get started. There are many ways you can help us, from fixing typos in the documentation to adding new features to the website.
-
-Contributing to open source is a fantastic way to learn new skills, gain practical experience, and connect with like-minded individuals.
-
-If you're interested in getting involved, all you need to do is take a look at our Template and add your favourite exercise that makes you feel better! We're excited to have you on board!
-
-Take a look at [Contributing Guide](/Contributing.md) for further guidance.
+**Take a look at [Contributing Guide](/Contributing.md) for further guidance.**
 
 # License 📝
 
 Gym Junkies is licensed under the [MIT License](/LICENSE). See the LICENSE file for more information.
 
-Thank you for using Gym Junkies!
+**Thank you for using Gym Junkies!**
 
 # Our Contributors 🤝
 
