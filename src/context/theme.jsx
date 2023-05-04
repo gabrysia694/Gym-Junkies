@@ -32,12 +32,14 @@ const darkTheme = {
 
 const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(lightTheme)
-
+  const [themeName, setThemeName] = useState("light")
   const toggleTheme = () => {
     const newTheme = theme === lightTheme ? darkTheme : lightTheme
     setTheme(newTheme)
+    setThemeName(themeName === "light" ? "dark" : "light")
     localStorage.setItem("selectedTheme", JSON.stringify(newTheme))
   }
+
 
   // Retrieve theme from local storage, if available
   useEffect(() => {
@@ -47,7 +49,7 @@ const ThemeProvider = ({ children }) => {
     }
   }, [])
 
-  return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>
+  return <ThemeContext.Provider value={{ theme, toggleTheme ,themeName}}>{children}</ThemeContext.Provider>
 }
 
 export { ThemeProvider, ThemeContext }
