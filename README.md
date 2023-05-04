@@ -5,16 +5,17 @@
 ![obraz_2023-04-24_201509119](https://user-images.githubusercontent.com/97764356/234081493-ca1a49c3-c27b-4d22-9f20-5b24abbf3350.png)
 
 # Welcome to Gym Junkies! 🙌
-This website allows users to add their favorite exercises with a video demonstration and step-by-step instructions on how to perform the exercise. It's a great resource for people looking to learn new exercises or to mix up their workout routines.
+[This website](https://gymjunkies.netlify.app/) allows users to add their favorite exercises with a video demonstration and step-by-step instructions on how to perform the exercise. It's a great resource for people looking to learn new exercises or to mix up their workout routines.
 
 # Getting Started ⭐
 
-+ To get started with Gym Junkies, simply visit our website. 
++ To get started with Gym Junkies, simply visit our [website.](https://gymjunkies.netlify.app/) 
 + From there, you can browse through existing exercises or create your own.
 + To create an exercise card, click the **"Add your card"** button from the Navbar and contribute to our project. 
 + Check the [Contributing Guide](/Contributing.md) for more information.
 
->Once your exercise is added, you can share it with your friends and family through social media. You can also use exercises to create a customized workout that suits your fitness goals and preferences!
+> Once your exercise is added, you can share it with your friends and family through social media.  <br>
+> You can also use exercises to create a customized workout that suits your fitness goals and preferences!
 
 # Tech Stacks 🛠️
 
