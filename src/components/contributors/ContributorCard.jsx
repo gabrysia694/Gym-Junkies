@@ -9,7 +9,7 @@ const ContributorCard = ({ login, html_url, avatar_url }) => {
     <div className=
     {clsx(
       " p-4 rounded-lg shadow",
-      themeName === "light" ? "text-white bg-gray-800" : "text-black bg-white"
+      themeName !== "light" ? "text-white bg-gray-800" : "text-black bg-white"
     )}
     >
       <div className="flex items-center mb-4">
