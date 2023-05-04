@@ -283,5 +283,20 @@
 	"videoLink": "https://www.youtube.com/watch?v=nBLy1IGtSJ8",
 	"gh-name": "Himan-Miku",
 	"image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pike-to-Cobra.gif"
-  }
+  },
+  {
+  "exercise": "Preacher curl",
+  "instructions": ["Grab the barbell or EZ curl bar with an underhand grip, and sit down on the preacher curl bench with your feet flat on the floor.",
+                   "Adjust the seat to allow your upper arms and chest to be in contact with the arm pad.",
+		   "Your chin should remain tucked throughout the movement, as if you were holding an egg under your chin.",
+		   "Your arms should be long with a slight bend in your elbows. Maintain a neutral wrist position and a comfortable grip.",
+		   "While keeping your upper arms in contact with the arm pad, initiate the upward movement by squeezing your biceps and bending your elbows.",
+		   "Continue to lift until the barbell or EZ bar is level with your shoulders.",
+		   "Finish the movement by squeezing your biceps.",
+		   "Slowly straighten your elbows to lower the barbell to the starting position."
+		  ],
+  "videoLink": " https://www.youtube.com/watch?v=fIWP-FRFNU0 ",
+  "gh-name": "B2prakash",
+  "image": "https://blog.squatwolf.com/preacher-curl/"
+}
 ]
