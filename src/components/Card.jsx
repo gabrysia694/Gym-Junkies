@@ -20,7 +20,7 @@ export default function Card() {
               <div className="uppercase tracking-wide text-sm text-indigo-800 font-semibold">
                 {exercise.exercise}
               </div>
-              <div style={{ overflowY: 'auto', height: '30vh' }}>
+              <div style={{ height: 'auto' }}>
                 <ul className="p-2 text-gray-500 list-disc">
                   {exercise.instructions.map((instruction, index) => (
                     <li key={index}>{instruction}</li>
