@@ -287,6 +287,17 @@
 	"image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pike-to-Cobra.gif"
   },
   {
+  "exercise": "Bulgarian Split Squats",
+  "instructions": [
+  "Stand facing away from a bench with one foot resting on the bench behind you.",
+  "Squat down with your front leg until your thigh is parallel to the ground, then stand back up.",
+  "Repeat for several reps before switching sides."
+  ],
+  "videoLink": "https://www.youtube.com/watch?v=2C-uNgKwPLE",
+  "gh-name": "Pyth0nHere",
+  "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/bulgarian-split-spuat.gif"
+  },
+  {
   "exercise": "Preacher curl",
   "instructions": [
     "Grab the barbell or EZ curl bar with an underhand grip, and sit down on the preacher curl bench with your feet flat on the floor.",
