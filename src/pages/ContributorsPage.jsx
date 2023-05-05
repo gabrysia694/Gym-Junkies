@@ -1,12 +1,11 @@
 import React from 'react'
-import { Fragment } from 'react'
 import Contributors from '../components/contributors/Contributors'
 
 const ContributorsPage = () => {
   return (
-    <Fragment>
-      <Contributors/>  
-    </Fragment>
+    <section className='min-h-screen'>
+      <Contributors />
+    </section>
   )
 }
 
