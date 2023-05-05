@@ -21,6 +21,7 @@ const Contributors = () => {
 
   return (
     <>
+      {/*  it will show 'Loading...` when API will fetch */}
       {isLoading && <p className="flex items-center justify-center p-5 text-3xl">Loading...</p>}
       <div className="mx-auto max-w-screen-xl p-5">
         <h1 className="text-3xl font-bold mb-4">Contributors</h1>
