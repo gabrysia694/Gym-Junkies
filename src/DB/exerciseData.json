@@ -205,7 +205,7 @@
   {
     "exercise": "Barbell Squats",
     "instructions": [
-      "Begin by standing with your feet shoulder-width apart, with a barbell placed on the rack at shoulder height.",
+      "Begin by standing with your feet shoulder-width apart, with a barbell placed on the rack at shoulder height",
       "Step forward and position yourself under the barbell so it rests on your traps (the muscles at the base of your neck).",
       "Grasp the bar with both hands, slightly wider than shoulder-width apart, and lift it off the rack.",
       "Keeping your back straight, slowly lower your body by bending at the knees and hips, while keeping your chest lifted.",
@@ -229,9 +229,10 @@
   },
   {
     "exercise": "Lat Pull Down",
-    "instructions": ["Sit down on a lat pulldown machine and adjust the thigh pads so that they fit snugly against your thighs.", 
-    "Grasp the lat bar with an overhand grip that is wider than shoulder-width apart.",
-     "Pull the bar down towards your chest while keeping your elbows pointed downwards and your shoulders pulled back. Hold the contraction for a second, then slowly release the bar back to the starting position with control."
+    "instructions": [
+      "Sit down on a lat pulldown machine and adjust the thigh pads so that they fit snugly against your thighs.", 
+      "Grasp the lat bar with an overhand grip that is wider than shoulder-width apart.",
+      "Pull the bar down towards your chest while keeping your elbows pointed downwards and your shoulders pulled back. Hold the contraction for a second, then slowly release the bar back to the starting position with control."
     ],
     "videoLink": "https://www.youtube.com/watch?v=43hWj8mfYGY",
     "gh-name": "Raulj123",
@@ -240,10 +241,10 @@
   {
     "exercise": "T-Bar Row",
     "instructions": [
-    "Stand with your feet shoulder-width apart and knees slightly bent in front of a T-bar row.", 
-    "Bend over at the hips, keeping your back straight, and grasp the handles of the T-bar.",
-    "Pull the T-bar towards your chest, keeping your elbows close to your body, and squeeze your shoulder blades together at the top of the movement.",
-    "Lower the T-bar or barbell back down to the starting position, but do not let it touch the ground between repetitions."
+      "Stand with your feet shoulder-width apart and knees slightly bent in front of a T-bar row.", 
+      "Bend over at the hips, keeping your back straight, and grasp the handles of the T-bar.",
+      "Pull the T-bar towards your chest, keeping your elbows close to your body, and squeeze your shoulder blades together at the top of the movement.",
+      "Lower the T-bar or barbell back down to the starting position, but do not let it touch the ground between repetitions."
     ],
     "videoLink": "https://www.youtube.com/watch?v=KDEl3AmZbVE",
     "gh-name": "haldaranup",
@@ -252,10 +253,10 @@
   {
     "exercise": "Heels touch",
     "instructions": [
-    "To do a heel touch, start by lying on your back, with your knees bent and your feet flat on the yoga mat. ", 
-    "Keeping your arms out by your sides, engage your abs and lift your head and neck off the ground.", 
-    "Try and keep the lower back pressed into the mat, and squeeze your abs as you reach your right hand to tap your right heel — it doesn’t matter if you can’t actually reach your heel, get as far as you can, feeling the obliques along the right-hand side of your body work. ", 
-    "Return to your starting position and repeat on the opposite side. Keep switching sides, keeping your abs braced throughout the exercise."
+      "To do a heel touch, start by lying on your back, with your knees bent and your feet flat on the yoga mat. ", 
+      "Keeping your arms out by your sides, engage your abs and lift your head and neck off the ground.", 
+      "Try and keep the lower back pressed into the mat, and squeeze your abs as you reach your right hand to tap your right heel — it doesn’t matter if you can’t actually reach your heel, get as far as you can, feeling the obliques along the right-hand side of your body work. ", 
+      "Return to your starting position and repeat on the opposite side. Keep switching sides, keeping your abs braced throughout the exercise."
   ],
     "videoLink": " https://youtu.be/PtX0z5_6sdM",
     "gh-name": "gallantfarhan",
@@ -264,10 +265,11 @@
   { 
   "exercise": "Lateral Raises", 
   "instructions": [
-  "Grab a set of dumbbells and stand straight.", 
-  "With your palms facing down, lift the dumbbells and raise your arms out to the sides.", 
-  "Once your elbows are at shoulder height, pause, and then slowly lower the arms back to the initial position.",
-  "Repeat, Add 3 sets of 8 to 12 repetitions"], 
+    "Grab a set of dumbbells and stand straight.", 
+    "With your palms facing down, lift the dumbbells and raise your arms out to the sides.", 
+    "Once your elbows are at shoulder height, pause, and then slowly lower the arms back to the initial position.",
+    "Repeat, Add 3 sets of 8 to 12 repetitions"
+  ], 
   "videoLink": "https://youtu.be/v_ZkxWzYnMc", 
   "gh-name": "anamika133m", 
   "image": "https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-lateral-raise-exercise-illustration.gif" 
@@ -294,5 +296,21 @@
   "videoLink": "https://www.youtube.com/watch?v=2C-uNgKwPLE",
   "gh-name": "Pyth0nHere",
   "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/bulgarian-split-spuat.gif"
+  },
+  {
+  "exercise": "Preacher curl",
+  "instructions": [
+    "Grab the barbell or EZ curl bar with an underhand grip, and sit down on the preacher curl bench with your feet flat on the floor.",
+    "Adjust the seat to allow your upper arms and chest to be in contact with the arm pad.",
+    "Your chin should remain tucked throughout the movement, as if you were holding an egg under your chin.",
+    "Your arms should be long with a slight bend in your elbows. Maintain a neutral wrist position and a comfortable grip.",
+    "While keeping your upper arms in contact with the arm pad, initiate the upward movement by squeezing your biceps and bending your elbows.",
+    "Continue to lift until the barbell or EZ bar is level with your shoulders.",
+    "Finish the movement by squeezing your biceps.",
+    "Slowly straighten your elbows to lower the barbell to the starting position."
+	],
+  "videoLink": " https://www.youtube.com/watch?v=fIWP-FRFNU0 ",
+  "gh-name": "B2prakash",
+  "image": "https://media.tenor.com/m2Dfyh507FQAAAAC/8preacher-curl.gif"
 }
 ]
