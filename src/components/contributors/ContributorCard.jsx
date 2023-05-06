@@ -1,14 +1,12 @@
-import React,{useContext} from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../../context/theme";
 import clsx from "clsx";
 
 const ContributorCard = ({ login, html_url, avatar_url }) => {
   const { themeName } = useContext(ThemeContext);
-  console.log(themeName);
   return (
-    <div className=
-    {clsx(
-      " p-4 rounded-lg shadow",
+    <div className={clsx(
+      " p-4 rounded-lg shadow hover:border-purple-900 border-2",
       themeName !== "light" ? "text-white bg-gray-800" : "text-black bg-white"
     )}
     >
