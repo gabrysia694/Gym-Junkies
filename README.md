@@ -2,7 +2,7 @@
  Gym Junkies 💫
  </h1>
  
-![obraz_2023-04-24_201509119](https://user-images.githubusercontent.com/97764356/234081493-ca1a49c3-c27b-4d22-9f20-5b24abbf3350.png)
+![Screenshot from 2023-05-06 00-39-14](https://user-images.githubusercontent.com/88102392/236548850-e742e57e-1e80-4664-b8e2-3f692dae286d.png)
 
 # Welcome to Gym Junkies! 🙌
 [This website](https://gymjunkies.netlify.app/) allows users to add their favorite exercises with a video demonstration and step-by-step instructions on how to perform the exercise. It's a great resource for people looking to learn new exercises or to mix up their workout routines.
