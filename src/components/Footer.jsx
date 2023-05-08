@@ -11,8 +11,10 @@ export default function Footer() {
           </h2>
 
           <p className="max-w-sm mx-auto mt-4 text-gray-400">
-            Gym Junkies is an open source project. Feel free to contribute to
-            the project.
+            Gym Junkies is an open source project. 
+          </p>
+          <p className="max-w-sm mx-auto mt-0 text-gray-400">
+            Feel free to contribute to the project.
           </p>
         </div>
 

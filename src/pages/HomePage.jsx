@@ -17,14 +17,16 @@ export default function HomePage() {
             </div>
 
             <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-4xl">
+              <h2 className="text-3xl font-bold sm:text-4xl text-justify">
                 Your Ultimate Destination for a Healthier You!
               </h2>
-              <p className="mt-4 ">
-                we believe that fitness should be fun and enjoyable. That's why
+              <p className="mt-4 text-justify">
+                We believe that fitness should be fun and enjoyable. That's why
                 we've created a vibrant and friendly atmosphere where you can
-                connect with like-minded individuals and make new friends. Join
-                us today and discover the joy of fitness!
+                connect with like-minded individuals and make new friends. 
+              </p>
+              <p className="mt-4 text-justify">
+                Join us today and discover the joy of fitness!
               </p>
             </div>
           </div>
