@@ -49,6 +49,6 @@ Gym-Junkies is licensed under the MIT License. By contributing to this repositor
 
 # Code Review Process
 
-All pull requests will be reviewed by the repository maintainers. We will provide feedback and suggest changes if necessary. Once your pull request is approved, we will merge it into the main repository.
+When you create a pull request, GitHub Actions will automatically run several tests. If any of these tests fail, it is up to you to address the underlying issue(s). You are responsible for resolving any merge conflicts that your pull request may have with the main branch, which GitHub will detect and notify you of. If you are uncertain about how to fix the problem, you can seek assistance. All pull requests will be reviewed by the repository maintainers. We will provide feedback and suggest changes if necessary. Once your pull request is approved, we will merge it into the main repository.
 
 Thank you for contributing to Gym-Junkies! 🏋️‍♀️🏋️‍♂️
