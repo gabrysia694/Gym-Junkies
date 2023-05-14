@@ -2,10 +2,10 @@
   {
     "exercise": "Bicep Curl",
     "instructions": [
-      "Stand with feet about hip-width apart, with your abs engaged while holding a meidum-heavy dumbells/barbell with your palm facing foward.",
+      "Stand with feet about hip-width apart, with your abs engaged while holding a medium-heavy dumbells/barbell with your palm facing foward.",
       "Squeeze your biceps and bend the arms, curling the weights towards the shoulders.",
       "Do this while keeping the elbows stationary and only bringing the weight as high as you can.",
-      "Now lowly lower the weights, keeping a slight bend in the elbows at the bottom.",
+      "Now slowly lower the weights, keeping a slight bend in the elbows at the bottom.",
       "Repeat this for 2-3 sets for 10-12 reps."
     ],
     "videoLink": "https://youtu.be/ykJmrZ5v0Oo",
@@ -15,7 +15,7 @@
   {
     "exercise": "Chest Dips",
     "instructions": [
-      "Start by positioning the body facing the dip station with the feet should widht apart and hands holding the bars.",
+      "Start by positioning the body facing the dip station with the feet shoulder width apart and hands holding the bars.",
       "Use a wide grip, and lean the body forward.",
       "Straighten the arms and lift the body off the ground by pulling up until the arms are fully extended.",
       "Slowly lower the body by bending the elbows and allowing the body to drop down toward the ground until the upper arms are parallel to the floor.",
@@ -92,7 +92,7 @@
       "Stand with feet a little wider than hip width, toes facing front",
       "Drive your hips back, bending at the knees and ankles and pressing your knees slightly open",
       "Sit into a squat position while still keeping your heels and toes on the ground, chest up and shoulders back.",
-      "Strive to eventually reach parallel, try to bent the knees at a 90-degree angle."
+      "Strive to eventually reach parallel, try to bend the knees at a 90-degree angle."
     ],
     "videoLink": "https://www.youtube.com/watch?v=gsNoPYwWXeM",
     "gh-name": "SaswataH",
@@ -170,7 +170,7 @@
       "Lie face up on a flat gym bench. Your entire body should be on the bench, except your lower legs. Your knees are bent, and your feet are flat on the floor. Arms extend above the chest, elbows shoulder-width apart (not locked), and both hands hold one end of a dumbbell.",
       "Flex your elbows and lower the weight toward the top of your head. Your upper arms should remain relatively perpendicular to your body. This keeps the tension on the triceps versus shifting it to the shoulders.",
       "Continue lowering the weight behind the head. The bottom of the dumbbell head should be about in line with the bench's top, or even a little higher if this feels unwieldy.",
-      "everse the movement until the weight is above the chest in the original starting position.",
+      "Reverse the movement until the weight is above the chest in the original starting position.",
       "Keep from locking the elbow to maintain tension in your triceps muscle"
     ],
     "videoLink": "https://www.youtube.com/watch?v=hLdIJdhVA2Q",
@@ -345,6 +345,19 @@
   "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/06/leg-extension-machine.gif"
 },
 {
+"exercise": "Wrist Curl",
+    "instructions": [
+      "Hold a dumbbell in each hand with an underhand grip, meaning your palms should be facing upward.",
+      "Rest your forearms on a bench or on your thighs so that your wrists hang over the edge. This is your starting position.",
+      "Slowly raise the dumbbells by bending your wrists upward, making sure to keep your forearms stationary.",
+      "Hold the contraction and then slowly lower the dumbbells back down to the starting position by bending your wrists downward.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=7ac_qmBjkFI",
+    "gh-name": "imankush10",
+    "image": "https://www.verywellfit.com/thmb/ToOlI6kmhRUNeGqDbvo3tVJK-fQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wristcurl-1056698feeaa4cf88a7586827ad70895.gif"
+  },
+  {
   "exercise": "Hammer Curls",
   "instructions": ["Bend at the elbow, lifting the lower arms to pull the weights toward the shoulders. Your upper arms are stationary and the wrists are in line with the forearms.",
   "Hold for one second at the top of the movement. Your thumbs will be close to the shoulders and palms facing in, toward the midline of the body.",
