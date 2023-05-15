@@ -11,7 +11,7 @@ export default function Card() {
         >
           <div className="md:flex items-center  ">
             <img
-              className="w-full object-cover h-full md:w-48"
+              className="w-64 object-cover h-full md:w-48"
               loading="lazy"
               src={exercise.image}
               alt={exercise.exercise}
