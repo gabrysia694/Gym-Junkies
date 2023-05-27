@@ -23,7 +23,7 @@ export default function Card() {
               <div style={{ overflowY: 'auto', height: '30vh' }}>
                 <ul className="p-2 text-gray-500 list-disc">
                   {exercise.instructions.map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
+                    <li key={index}>‣{instruction}</li>
                   ))}
                 </ul>
               </div>
