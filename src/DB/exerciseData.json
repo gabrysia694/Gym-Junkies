@@ -107,7 +107,7 @@
     ],
     "videoLink": "https://www.youtube.com/watch?v=gsNoPYwWXeM",
     "gh-name": "SaswataH",
-    "image": "https://blog.enarahealth.com/wp-content/uploads/2022/03/PngItem_2810409-e1647565708516.png"
+    "image": "https://enarahealth.com/wp-content/uploads/2022/03/PngItem_2810409-e1647565708516.png"
   },
   {
     "exercise": "Dumbbell rows",
@@ -451,5 +451,37 @@
     "videoLink": "https://www.youtube.com/watch?v=VJyLJAGjptA",
     "gh-name": "simon1re",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2023/03/Behind-The-Back-Barbell-Shrug-Reverse-Barbell-Shrug.gif"
+  },
+
+  {
+    "exercise": "Dumbbell Bicep Curl",
+    "instructions": [
+    "Stand up straight with a dumbbell in each hand at arm's length.",
+    "Keep your elbows close to your torso at all times.",
+    "Now, keeping the upper arms stationary, exhale and curl the weights while contracting your biceps.",
+    "Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level.",
+    "Hold the contracted position for a brief moment as you squeeze your biceps.",
+    "Then inhale and slowly begin to lower the dumbbells back to the starting position.",
+    "Repeat for the recommended amount of repetitions."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo&ab_channel=Howcast",
+    "gh-name": "CedricNdong",
+    "image": "https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif"
+  },
+
+  {
+    "exercise": "Half Crunches",
+    "instructions": [
+    "Begin by lying down on your back.",
+    "Bend your knees and place your feet flat on the floor, hip-width apart.",
+    "Place your hands behind your head, keeping your elbows wide. You can also cross your arms over your chest if you prefer.",
+    "Engage your core and lift your upper body up, stopping halfway between the floor and a full sit-up position. Be sure to keep your lower back, hips, and feet on the floor.",
+    "Pause for a moment, feeling the contraction in your abdominal muscles.",
+    "Slowly lower your upper body back down to the starting position.",
+    "Repeat the movement for the desired number of repetitions."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=Xyd_fa5zoEU&t=86s&ab_channel=LIVESTRONG.COM",
+    "gh-name": "CedricNdong",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2015/11/Crunch.gif"
   }
 ]
