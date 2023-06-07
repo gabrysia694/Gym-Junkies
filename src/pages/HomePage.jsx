@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
@@ -7,19 +8,28 @@ export default function HomePage() {
       <section>
         <div className="mx-auto max-w-screen-xl min-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+            <motion.div 
+              initial={{ opacity: 0, x: 200 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 2}}
+            className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <img
                 alt="a girl doing exercises"
                 src="https://plus.unsplash.com/premium_photo-1664109999537-088e7d964da2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
               />
-            </div>
+            </motion.div>
 
-            <div className="lg:py-24 ">
-              <h2 className="text-6xl font-bold sm:text-6xl text-center ">
-                <div className="mb-8">Your Ultimate Destination for </div><span className="bg-indigo-500 text-white p-auto">Healthier You!</span>
+            <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 2 }}
+            className="lg:py-24">
+              <h2 className="text-3xl font-bold sm:text-4xl text-justify">
+                Your Ultimate Destination for a Healthier You! 
               </h2>
+            
               <p className="mt-8 text-center">
                We believe that fitness should be fun and enjoyable.That's why
                 we've created a vibrant and friendly atmosphere where you can
@@ -28,14 +38,19 @@ export default function HomePage() {
               <p className="mt-4 text-center sm:text-lg">
                 Join us today and discover the joy of fitness!
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
       <section>
         <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="bg-blue-900 p-8 md:p-4 lg:px-16 lg:py-24 rounded">
+            <motion.div 
+            // initial={{ opacity: 0, y: 200 }}
+            // animate={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 2 }}
+            className="bg-blue-900 p-8 md:p-12 lg:px-16 lg:py-24">
+
               <div className="mx-auto max-w-xl text-center">
                 <h2 className="text-2xl font-bold text-white md:text-3xl">
                   Your One-Stop Destination for Total Body Transformation{" "}
@@ -58,7 +73,7 @@ export default function HomePage() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
               <img
