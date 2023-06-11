@@ -26,8 +26,9 @@ export default function HomePage() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 2 }}
             className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-4xl text-justify">
-                Your Ultimate Destination for a Healthier You! 
+              <h2 className="text-6xl font-bold sm:text-6xl text-center">
+                <div className="mb-8">Your Ultimate Destination for </div>
+                <span className="bg-indigo-500 text-white p-auto">Healthier You!</span>
               </h2>
             
               <p className="mt-8 text-center">
