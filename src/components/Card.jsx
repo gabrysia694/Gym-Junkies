@@ -7,11 +7,11 @@ export default function Card() {
       {jsonData.map((exercise, index) => (
         <div
           key={index}
-          className=" max-w-md mx-auto my-4 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2"
+          className=" max-w-md mx-auto my-4 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2 px-5"
         >
           <div className="md:flex items-center  ">
             <img
-              className="w-64 object-cover h-full md:w-48"
+              className="w-64 object-cover h-full mx-auto md:w-48"
               loading="lazy"
               src={exercise.image}
               alt={exercise.exercise}
@@ -20,7 +20,7 @@ export default function Card() {
               <div className="uppercase tracking-wide text-sm text-indigo-800 font-semibold">
                 {exercise.exercise}
               </div>
-              <div style={{ overflowY: 'auto', height: '30vh' }}>
+              <div style={{ overflowY: "auto", height: "30vh" }}>
                 <ul className="p-2 text-gray-500 list-disc">
                   {exercise.instructions.map((instruction, index) => (
                     <li key={index}>{instruction}</li>
