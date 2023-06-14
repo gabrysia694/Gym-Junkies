@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -14,7 +14,15 @@ export default function Footer() {
             Gym Junkies is an open source project.
           </p>
           <p className='max-w-sm mx-auto mt-0 text-gray-400'>
-            Feel free to contribute to the project.
+            Feel free to{" "}
+            <a
+              className='text-white underline decoration-transparent transition ease-in-out hover:decoration-inherit'
+              href='https://github.com/gabrysia694/Gym-Junkies'
+              target='_blank'
+            >
+              contribute to the project
+            </a>
+            .
           </p>
         </div>
 
