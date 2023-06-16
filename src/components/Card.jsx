@@ -6,7 +6,7 @@ import clsx from "clsx";
 
 export default function Card() {
   const { themeName } = useContext(ThemeContext);
-  console.log(themeName);
+
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 p-3'>
       {jsonData.map((exercise, index) => (
