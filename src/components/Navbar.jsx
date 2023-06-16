@@ -25,7 +25,7 @@ export default function Navbar() {
         ></img>
       </a>
 
-      <ul className='flex flex-wrap items-center gap-2 text-[1rem]'>
+      <ul className='flex flex-wrap items-center justify-center gap-2 text-[1rem]'>
         <li>
           <NavLink
             to='/GuidePage'
