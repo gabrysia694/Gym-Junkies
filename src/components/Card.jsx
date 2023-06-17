@@ -18,10 +18,10 @@ export default function Card() {
           )}
         >
           <div className='md:flex items-center'>
-            <div className='p-2 w-full'>
+            <div className='p-4  w-4/6 mx-auto md:w-3/6'>
               <img
                 className={clsx(
-                  "w-64 object-cover h-full md:w-48 bg-white border-2",
+                  "object-cover h-full mx-auto md:w-full bg-white border-2",
                   themeName === "light"
                     ? "border-indigo-400 rounded-xl"
                     : "border-white"
@@ -32,7 +32,7 @@ export default function Card() {
               />
             </div>
 
-            <div className='p-8'>
+            <div className='p-4 w-full md:w-3/6'>
               <div
                 className={clsx(
                   "uppercase italic tracking-wide text-xl font-semibold",
