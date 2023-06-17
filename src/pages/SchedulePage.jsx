@@ -1,7 +1,11 @@
-import React from 'react';
-import categoriesData from '../DB/categoriesData.json';
+import React, { useContext } from "react";
+import { ThemeContext } from "../context/theme";
+
+import categoriesData from "../DB/categoriesData.json";
+import clsx from "clsx";
 
 const SchedulePage = () => {
+  const { themeName } = useContext(ThemeContext);
   return (
     <section>
       <div className='flex flex-col mx-auto max-w-screen-xl p-5'>
@@ -12,7 +16,10 @@ const SchedulePage = () => {
         {categoriesData.map((category) => (
           <div
             key={category.id}
-            className='max-w-md mx-auto my-4 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2'
+            className={clsx(
+              "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2",
+              themeName === "light" ? "bg-gray-800" : "bg-white"
+            )}
           >
             <div className=' md:flex items-center h-full'>
               <img
@@ -22,10 +29,22 @@ const SchedulePage = () => {
                 alt={category.categoryName}
               />
               <div className='p-8'>
-                <div className='uppercase tracking-wide text-lg text-indigo-800 font-semibold'>
+                <div
+                  className={clsx(
+                    "uppercase italic tracking-wide text-lg font-semibold",
+                    themeName === "light"
+                      ? "text-indigo-400"
+                      : "text-indigo-800"
+                  )}
+                >
                   {category.categoryName}
                 </div>
-                <div className=' text-gray-500 ' style={{ height: '20vh' }}>
+                <div
+                  className={clsx(
+                    themeName === "light" ? "text-white-500" : "text-gray-500"
+                  )}
+                  style={{ height: "20vh" }}
+                >
                   {category.description}
                 </div>
               </div>
