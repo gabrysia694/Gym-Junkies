@@ -7,7 +7,7 @@ const ContributorCard = ({ login, html_url, avatar_url }) => {
   return (
     <div className={clsx(
       " p-4 rounded-lg shadow hover:border-purple-900 border-2",
-      themeName !== "light" ? "text-white bg-gray-800" : "text-black bg-white"
+      themeName !== "light" ?  "text-black bg-white" : "text-white bg-gray-800"
     )}
     >
       <div className="flex items-center mb-4">
