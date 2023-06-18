@@ -7,9 +7,14 @@ import clsx from "clsx";
 export default function Card() {
   const { themeName } = useContext(ThemeContext);
 
+  // Sort the exercises alphabetically
+  const sortedExercises = jsonData.sort((a, b) =>
+    a.exercise.localeCompare(b.exercise)
+  );
+
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 p-3'>
-      {jsonData.map((exercise, index) => (
+    <div className="grid grid-cols-1 lg:grid-cols-2 p-3">
+      {sortedExercises.map((exercise, index) => (
         <div
           key={index}
           className={clsx(
@@ -17,8 +22,8 @@ export default function Card() {
             themeName === "light" ? "bg-gray-800" : "bg-white"
           )}
         >
-          <div className='md:flex items-center'>
-            <div className='p-4  w-4/6 mx-auto md:w-3/6'>
+          <div className="md:flex items-center">
+            <div className="p-4  w-4/6 mx-auto md:w-3/6">
               <img
                 className={clsx(
                   "object-cover h-full mx-auto md:w-full bg-white border-2",
@@ -26,13 +31,13 @@ export default function Card() {
                     ? "border-indigo-400 rounded-xl"
                     : "border-white"
                 )}
-                loading='lazy'
+                loading="lazy"
                 src={exercise.image}
                 alt={exercise.exercise}
               />
             </div>
 
-            <div className='p-4 w-full md:w-3/6'>
+            <div className="p-4 w-full md:w-3/6">
               <div
                 className={clsx(
                   "uppercase italic tracking-wide text-xl font-semibold",
@@ -53,11 +58,11 @@ export default function Card() {
                   ))}
                 </ul>
               </div>
-              <div className='mt-6 gap-5 flex items-center'>
+              <div className="mt-6 gap-5 flex items-center">
                 <a
                   href={exercise.videoLink}
-                  target='_blank'
-                  rel='noreferrer'
+                  target="_blank"
+                  rel="noreferrer"
                   className={clsx(
                     "hover:text-indigo-600 font-semibold",
                     themeName === "light"
@@ -72,11 +77,11 @@ export default function Card() {
                     themeName === "light" ? "text-white" : "text-black"
                   )}
                 >
-                  Added by :{" "}
+                  Added by:{" "}
                   <a
                     href={`https://github.com/${exercise["gh-name"]}`}
-                    target='_blank'
-                    rel='noreferrer'
+                    target="_blank"
+                    rel="noreferrer"
                     className={clsx(
                       themeName === "light"
                         ? "text-indigo-400"
