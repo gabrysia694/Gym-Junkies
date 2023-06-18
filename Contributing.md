@@ -23,7 +23,8 @@ Thank you for considering contributing to Gym-Junkies! Please take a moment to r
 ## Add your card
 
 1. Go to `src/DB/exerciseData.json`
-2. Add the following code to the end of the file
+2. Make sure that your exercise doesn't already exsist on the page
+3. Add the following code to the end of the file
 
 ```json
 {
