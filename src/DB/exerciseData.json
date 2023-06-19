@@ -12,6 +12,7 @@
     "gh-name": "druvkotwani",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/01/inner-bicep-curl.gif"
   },
+
   {
     "exercise": "Knee pushup",
     "instructions": [
@@ -23,6 +24,7 @@
     "gh-name": "ayezabashir",
     "image": "https://i.pinimg.com/originals/f6/20/c9/f620c92cf9f2631338f51f711669d320.gif"
   },
+
   {
     "exercise": "Chest Dips",
     "instructions": [
@@ -37,18 +39,7 @@
     "gh-name": "druvkotwani",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/chest-dip-movement.gif"
   },
-  {
-    "exercise": "Sit-Ups",
-    "instructions": [
-      "Start by lying on your back on a mat with your knees bent and your feet flat on the floor.",
-      "Cross your arms over your chest or place your hands behind your head and slowly lift your upper body off the ground.",
-      "Slowly lower your upper body back down to the mat.",
-      "Repeat for desired number of repetitions."
-    ],
-    "videoLink": "https://www.youtube.com/watch?v=1fbU_MkV7NE",
-    "gh-name": "jayasree-g",
-    "image": "https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/sit-up-large.png"
-  },
+  
   {
     "exercise": "Lunges",
     "instructions": [
@@ -61,6 +52,7 @@
     "gh-name": "gabrysia694     ",
     "image": "https://www.burnthefatinnercircle.com/members/images/2015.png?cb=20230213043730"
   },
+
   {
     "exercise": "Push up",
     "instructions": [
@@ -73,6 +65,7 @@
     "gh-name": "gabrysia694     ",
     "image": "https://user-images.githubusercontent.com/88102392/233252239-3a2eb26e-45fa-4336-a294-7f622528307c.png"
   },
+
   {
     "exercise": "Cable Chest Flys",
     "instructions": [
@@ -85,6 +78,7 @@
     "gh-name": "keshav97-git",
     "image": "https://program.rapidloss.com.au/wp-content/uploads/female-cable-chest-fly.gif"
   },
+
   {
     "exercise": "Deadlift",
     "instructions": [
@@ -97,6 +91,7 @@
     "gh-name": "murtazaali2828",
     "image": "https://www.fitstream.com/images/weight-training/exercises/deadlift-one.png"
   },
+
   {
     "exercise": "Squats",
     "instructions": [
@@ -109,6 +104,7 @@
     "gh-name": "SaswataH",
     "image": "https://enarahealth.com/wp-content/uploads/2022/03/PngItem_2810409-e1647565708516.png"
   },
+
   {
     "exercise": "Dumbbell rows",
     "instructions": [
@@ -122,6 +118,7 @@
     "gh-name": "bilalakhter",
     "image": "https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Dumbbell-Bent-Over-Row-_Single-Arm_49867db3-f465-4fbc-b359-29cbdda502e2_600x600.png?v=1612138069"
   },
+
   {
     "exercise": "Planks",
     "instructions": [
@@ -135,6 +132,7 @@
     "gh-name": "Shalini469717",
     "image": "https://www.burnthefatinnercircle.com/members/images/826b.png?cb=20230213043654"
   },
+
   {
     "exercise": "Glute Bridge",
     "instructions": [
@@ -149,6 +147,7 @@
     "gh-name": "Vishal-Parasram",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/11/dumbbell-glute-bridge-1024x264.png"
   },
+
   {
     "exercise": "Pull up",
     "instructions": [
@@ -161,6 +160,7 @@
     "gh-name": "Poonam1607",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/pull-up-1024x907.png"
   },
+
   {
     "exercise": "Bench press",
     "instructions": [
@@ -175,6 +175,7 @@
     "gh-name": "hyeongwookjang",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/decline-bench-press-1024x566.png"
   },
+
   {
     "exercise": "Skull Crushers",
     "instructions": [
@@ -188,6 +189,7 @@
     "gh-name": "RahulRana701",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-lying-skullcrusher.png"
   },
+
   {
     "exercise": "Upright Rows",
     "instructions": [
@@ -201,6 +203,7 @@
     "gh-name": "KyloRen04",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/sumo-deadlift-high-pull.png"
   },
+
   {
     "exercise": "Dumbbell Overhead Extension",
     "instructions": [
@@ -213,6 +216,7 @@
     "gh-name": "sagar-io",
     "image": "https://s3.amazonaws.com/prod.skimble/assets/1375615/image_iphone.jpg"
   },
+
   {
     "exercise": "Barbell Squats",
     "instructions": [
@@ -226,6 +230,7 @@
     "gh-name": "BEN HARRI MOHAMMED",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-full-squat.gif"
   },
+
   {
     "exercise": "Dumbbell Shoulder Press",
     "instructions": [
@@ -238,6 +243,7 @@
     "gh-name": "BEN HARRI MOHAMMED",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Shoulder-Press.gif"
   },
+
   {
     "exercise": "Lat Pull Down",
     "instructions": [
@@ -249,6 +255,7 @@
     "gh-name": "Raulj123",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif"
   },
+
   {
     "exercise": "T-Bar Row",
     "instructions": [
@@ -261,6 +268,7 @@
     "gh-name": "haldaranup",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/10/t-bar-row-muscles.gif"
   },
+
   {
     "exercise": "Heels touch",
     "instructions": [
@@ -273,6 +281,7 @@
     "gh-name": "gallantfarhan",
     "image": "https://homeworkouts.org/wp-content/uploads/anim-alternate-heel-touches.gif"
   },
+
   {
     "exercise": "Lateral Raises",
     "instructions": [
@@ -285,6 +294,7 @@
     "gh-name": "anamika133m",
     "image": "https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-lateral-raise-exercise-illustration.gif"
   },
+
   {
     "exercise": "Hindu Push-Ups",
     "instructions": [
@@ -297,6 +307,7 @@
     "gh-name": "Himan-Miku",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pike-to-Cobra.gif"
   },
+
   {
     "exercise": "Bulgarian Split Squats",
     "instructions": [
@@ -308,6 +319,7 @@
     "gh-name": "Pyth0nHere",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/bulgarian-split-spuat.gif"
   },
+
   {
     "exercise": "Preacher curl",
     "instructions": [
@@ -324,6 +336,7 @@
     "gh-name": "B2prakash",
     "image": "https://media.tenor.com/m2Dfyh507FQAAAAC/8preacher-curl.gif"
   },
+
   {
     "exercise": "Romanian Deadlift",
     "instructions": [
@@ -334,6 +347,7 @@
     "gh-name": "MehmetTerc",
     "image": "https://media.tenor.com/kyOyzUcfIpMAAAAC/dumbbell-romanian.gif"
   },
+
   {
     "exercise": "Wide Grip Pullup",
     "instructions": [
@@ -345,6 +359,7 @@
     "gh-name": "smackey15",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pull-up.gif"
   },
+
   {
     "exercise": "Leg Extension",
     "instructions": [
@@ -357,6 +372,7 @@
     "gh-name": "Ishita-Ghosh-25",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/06/leg-extension-machine.gif"
   },
+
   {
     "exercise": "Wrist Curl",
     "instructions": [
@@ -370,6 +386,7 @@
     "gh-name": "imankush10",
     "image": "https://www.verywellfit.com/thmb/ToOlI6kmhRUNeGqDbvo3tVJK-fQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wristcurl-1056698feeaa4cf88a7586827ad70895.gif"
   },
+
   {
     "exercise": "Hammer Curls",
     "instructions": [
@@ -381,6 +398,7 @@
     "gh-name": "Kruthardh11",
     "image": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233"
   },
+
   {
     "exercise": "Lever Single Leg Curl",
     "instructions": [
@@ -392,6 +410,7 @@
     "gh-name": "mhdamaan79",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Lever-Single-Leg-Curl.gif"
   },
+
   {
     "exercise": "Lying Hamstring Leg Curls",
     "instructions": [
@@ -403,6 +422,7 @@
     "gh-name": "mhdamaan79",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif"
   },
+
   {
     "exercise": "Russian Twist",
     "instructions": [
@@ -416,6 +436,7 @@
     "gh-name": "aditya0929",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Russian-Twist.gif"
   },
+  
   {
     "exercise": "Cable Biceps Curl",
     "instructions": [
@@ -427,19 +448,7 @@
     "gh-name": "utkarsh3128",
     "image": "https://homegymreview.co.uk/wp-content/uploads/exercises/16071101-Cable-Biceps-Curl-SZ-bar_Upper-arms_max-scaled.jpg"
   },
-  {
-    "exercise": "Bench Press",
-    "instructions": [
-      "Stand with the bar on your front shoulders. Narrow grip, straight wrists, vertical forearms. Lock your knees and hips.",
-      "Lift Your Chest. Raise your chest towards the ceiling by arching your upper-back. Try to touch your chin with your upper-chest.Press.",
-      " Take a big breath, hold it and press the bar in a vertical line. Don't press it in front or behind your head. Press it over your head.",
-      "Move Forward. Stay close to the bar while you press the weight up. Shift your torso forward once the bar has passed your forehead.Lockout.",
-      "Hold the bar over your shoulders and mid-foot for proper balance. Lock your elbows. Shrug your shoulders to the ceiling."
-    ],
-    "videoLink": "https://www.youtube.com/watch?v=F3QY5vMz_6I",
-    "gh-name": "Helixjoe",
-    "image": "https://media.giphy.com/media/SieD4F7finpC5Bdal5/giphy.gif"
-  },
+  
   {
     "exercise": "Behind the back barbell shrug",
     "instructions": [
@@ -543,6 +552,7 @@
     "gh-name": "Shiva-Sai-ssb",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/arm-circles.gif"
   },
+
   {
     "exercise": "Diamond PushUp",
     "instructions":[
@@ -557,6 +567,5 @@
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/08/diamond-pushup.gif"
     
   }
-  
-  
+
 ]
