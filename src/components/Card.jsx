@@ -6,7 +6,7 @@ import clsx from "clsx";
 
 export default function Card() {
   const { themeName } = useContext(ThemeContext);
-console.log("themeName",themeName)
+
   // Sort the exercises alphabetically
   const sortedExercises = jsonData.sort((a, b) =>
     a.exercise.localeCompare(b.exercise)
