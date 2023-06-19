@@ -12,7 +12,7 @@ const SchedulePage = () => {
         <h2 className='text-3xl font-bold sm:text-4xl'>Follow Schedule</h2>
       </div>
 
-      <div className='grid grid-cols-1 lg:grid-cols-2 p-3'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 p-3 gap-x-6'>
         {categoriesData.map((category) => (
           <div
             key={category.id}
