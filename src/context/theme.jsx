@@ -35,21 +35,25 @@ const ThemeProvider = ({ children }) => {
   const [themeName, setThemeName] = useState("light")
   const toggleTheme = () => {
     const newTheme = theme === lightTheme ? darkTheme : lightTheme
+    const newThemeName = themeName === "light" ? "dark" : "light"
     setTheme(newTheme)
-    setThemeName(themeName === "light" ? "dark" : "light")
-    localStorage.setItem("selectedTheme", JSON.stringify(newTheme))
+    setThemeName(newThemeName)
+    localStorage.setItem("selectedTheme", newThemeName)
   }
 
 
   // Retrieve theme from local storage, if available
   useEffect(() => {
-    const savedTheme = JSON.parse(localStorage.getItem("selectedTheme"))
+    const savedTheme = localStorage.getItem("selectedTheme")
+    
     if (savedTheme) {
-      setTheme(savedTheme)
+      savedTheme === "light" ? setThemeName("light") : setThemeName("dark")
+      savedTheme === "light" ? setTheme(lightTheme) : setTheme(darkTheme)
     }
+
   }, [])
 
-  return <ThemeContext.Provider value={{ theme, toggleTheme ,themeName}}>{children}</ThemeContext.Provider>
+  return <ThemeContext.Provider value={{ theme, toggleTheme, themeName }}>{children}</ThemeContext.Provider>
 }
 
 export { ThemeProvider, ThemeContext }
