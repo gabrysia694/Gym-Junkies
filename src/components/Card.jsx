@@ -87,7 +87,7 @@ export default function Card() {
                         ? "text-indigo-800"
                         : "text-indigo-400",
                       "hover:text-indigo-600 font-semibol"
-                    )}
+                    )} 
                   >
                     {exercise["gh-name"]}
                   </a>

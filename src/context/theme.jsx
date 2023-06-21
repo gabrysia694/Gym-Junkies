@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from "react"
+import React, { createContext, useState, useEffect, useLayoutEffect } from "react"
 
 const ThemeContext = createContext("light")
 
@@ -30,6 +30,7 @@ const darkTheme = {
   },
 }
 
+
 const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(lightTheme)
   const [themeName, setThemeName] = useState("light")
@@ -43,7 +44,8 @@ const ThemeProvider = ({ children }) => {
 
 
   // Retrieve theme from local storage, if available
-  useEffect(() => {
+
+  useLayoutEffect(() => {
     const savedTheme = localStorage.getItem("selectedTheme")
     
     if (savedTheme) {
