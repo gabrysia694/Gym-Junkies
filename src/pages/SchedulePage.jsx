@@ -18,7 +18,7 @@ const SchedulePage = () => {
             key={category.id}
             className={clsx(
               "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2",
-              themeName === "light" ? "bg-gray-800" : "bg-white"
+              themeName === "light" ? "bg-white" : "bg-gray-800" 
             )}
           >
             <div className=' md:flex items-center h-full'>
@@ -33,15 +33,15 @@ const SchedulePage = () => {
                   className={clsx(
                     "uppercase italic tracking-wide text-lg font-semibold",
                     themeName === "light"
-                      ? "text-indigo-400"
-                      : "text-indigo-800"
+                      ? "text-indigo-800"
+                      : "text-indigo-400"
                   )}
                 >
                   {category.categoryName}
                 </div>
                 <div
                   className={clsx(
-                    themeName === "light" ? "text-white-500" : "text-gray-500"
+                    themeName === "light" ? "text-gray-500" : "text-white-500"
                   )}
                   style={{ height: "20vh" }}
                 >

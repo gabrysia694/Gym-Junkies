@@ -19,7 +19,7 @@ export default function Card() {
           key={index}
           className={clsx(
             "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2",
-            themeName === "light" ? "bg-gray-800" : "bg-white"
+            themeName === "light" ? "bg-white" : "bg-gray-800" 
           )}
         >
           <div className="md:flex items-center">
@@ -28,8 +28,8 @@ export default function Card() {
                 className={clsx(
                   "object-cover h-full mx-auto md:w-full bg-white border-2",
                   themeName === "light"
-                    ? "border-indigo-400 rounded-xl"
-                    : "border-white"
+                    ? "border-white"
+                    : "border-indigo-400 rounded-xl"
                 )}
                 loading="lazy"
                 src={exercise.image}
@@ -41,7 +41,7 @@ export default function Card() {
               <div
                 className={clsx(
                   "uppercase italic tracking-wide text-xl font-semibold",
-                  themeName === "light" ? "text-indigo-400" : "text-indigo-800"
+                  themeName === "light" ? "text-indigo-800" : "text-indigo-400"
                 )}
               >
                 {exercise.exercise}
@@ -50,7 +50,7 @@ export default function Card() {
                 <ul
                   className={clsx(
                     "p-2 list-dis",
-                    themeName === "light" ? "text-white-500" : "text-gray-500"
+                    themeName === "light" ? "text-gray-500" : "text-white-500"
                   )}
                 >
                   {exercise.instructions.map((instruction, index) => (
@@ -66,15 +66,15 @@ export default function Card() {
                   className={clsx(
                     "hover:text-indigo-600 font-semibold",
                     themeName === "light"
-                      ? "text-indigo-400"
-                      : "text-indigo-800"
+                      ? "text-indigo-800"
+                      : "text-indigo-400"
                   )}
                 >
                   Watch video
                 </a>
                 <span
                   className={clsx(
-                    themeName === "light" ? "text-white" : "text-black"
+                    themeName === "light" ? "text-black" : "text-white"
                   )}
                 >
                   Added by:{" "}
@@ -84,8 +84,8 @@ export default function Card() {
                     rel="noreferrer"
                     className={clsx(
                       themeName === "light"
-                        ? "text-indigo-400"
-                        : "text-indigo-800",
+                        ? "text-indigo-800"
+                        : "text-indigo-400",
                       "hover:text-indigo-600 font-semibol"
                     )}
                   >
