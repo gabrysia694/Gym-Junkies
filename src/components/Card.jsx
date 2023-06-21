@@ -13,7 +13,7 @@ export default function Card() {
   );
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 p-3">
+    <div className="grid grid-cols-1 lg:grid-cols-2 p-3 gap-x-6">
       {sortedExercises.map((exercise, index) => (
         <div
           key={index}
