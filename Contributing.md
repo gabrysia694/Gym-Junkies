@@ -14,9 +14,9 @@ Thank you for considering contributing to Gym-Junkies! Please take a moment to r
 ## How to run in your local machine
 
 1. install dependencies
-   > `pnpm install`
+   > `npm install`
 2. run the app
-   > `pnpm dev`
+   > `npm dev`
    or
    >  `npm run dev`
 
