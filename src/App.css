@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar-shown {
+  display: block;
+  top: 65px !important;
+  left: 0px;
+  transition: top 0.25s ease-in-out;
+}
+
+.navbar-hidden {
+  top: -250px !important;
+  left: 0px;
+  transition: top 0.25s ease-in-out;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 639px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
