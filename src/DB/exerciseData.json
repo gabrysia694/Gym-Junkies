@@ -1,4 +1,19 @@
 [
+  { "exercise": "Dumbbell Kickback", 
+    "instructions": [
+      "Begin by grabbing a dumbbell in one hand. Choose a weight that allows you to maintain proper form and control throughout the exercise."
+      "Place your other hand and knee on a flat bench, ensuring that your back is straight and parallel to the ground.", 
+      "Start with your arm bent at a 90-degree angle, upper arm parallel to your torso. Keep your elbow close to your body and maintain a neutral spine position.", 
+      "Engage your core for stability. This is the starting position.",
+      "Extend your arm backward in a controlled manner, straightening it fully while focusing on contracting your triceps (the muscles on the back of your upper arm).",
+      "Ensure that only your forearm moves, and your upper arm remains stationary. Hold the fully extended position for a brief moment,feeling the contraction in your triceps."
+      "Slowly return your forearm to the starting position, keeping the movement controlled and avoiding any swinging or jerking motions."
+    ], 
+    "videoLink": "https://youtu.be/z3sm6YgpJho", 
+    "gh-name": "SagarBawanthade", 
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Kickback.gif" 
+  },
+  
   {
     "exercise": "Bicep Curl",
     "instructions": [
