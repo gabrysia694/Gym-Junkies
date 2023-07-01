@@ -40,7 +40,7 @@ export default function Navbar() {
         className={clsx(
           `fixed sm:static top-20 z-10 gap-2 text-md w-full sm:flex flex-wrap items-center justify-center nav-menu`,
           theme.background === "#fff" ? "bg-white" : "bg-black",
-          navbarShown ? "navbar-hidden" : "navbar-shown"
+          navbarShown ? "navbar-shown" : "navbar-hidden"
         )}
         onClick={toggleNavbar}
       >
