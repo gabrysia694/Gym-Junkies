@@ -49,7 +49,7 @@ export default function Card() {
               <div style={{ overflowY: "auto", height: "30vh" }}>
                 <ul
                   className={clsx(
-                    "p-2 list-dis",
+                    "p-2 list-disc ml-2",
                     themeName === "light" ? "text-gray-500" : "text-white-500"
                   )}
                 >
