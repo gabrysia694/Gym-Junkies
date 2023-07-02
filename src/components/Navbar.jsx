@@ -1,16 +1,26 @@
-import React, { useContext } from 'react';
-import { ThemeContext } from '../context/theme';
-import { NavLink } from 'react-router-dom';
-import clsx from 'clsx';
+import React, { useState, useContext } from "react";
+import { ThemeContext } from "../context/theme";
+import { NavLink } from "react-router-dom";
+import clsx from "clsx";
 
-function navLinkClass(isActive) {
-  return clsx('rounded-lg p-1 px-3 py-2 hover:bg-slate-400', {
-    'bg-slate-400': isActive,
-  });
+function navLinkClass(isActive, theme) {
+  return clsx(
+    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-slate-400",
+    theme.background === "#fff" ? "text-black" : "text-white",
+    {
+      "bg-slate-400": isActive,
+    }
+  );
 }
 
 export default function Navbar() {
   const { theme, toggleTheme } = useContext(ThemeContext);
+  const [navbarShown, setNavbarShown] = useState(false);
+
+  const toggleNavbar = () => {
+    setNavbarShown(!navbarShown);
+  };
+
   return (
     <nav
       aria-label='Site Nav'
@@ -25,34 +35,42 @@ export default function Navbar() {
         ></img>
       </a>
 
-      <ul className='flex flex-wrap items-center justify-center gap-2 text-[1rem]'>
-        <li>
+      <ul
+        // className='flex flex-wrap items-center justify-center gap-2 text-[1rem]'
+        className={clsx(
+          `fixed sm:static top-20 z-10 gap-2 text-md w-full sm:flex flex-wrap items-center justify-center nav-menu`,
+          theme.background === "#fff" ? "bg-white" : "bg-black",
+          navbarShown ? "navbar-shown" : "navbar-hidden"
+        )}
+        onClick={toggleNavbar}
+      >
+        <li className='mb-4 sm:mb-0 sm:ml-8 nav-item text-center'>
           <NavLink
             to='/GuidePage'
-            className={({ isActive }) => navLinkClass(isActive)}
+            className={({ isActive }) => navLinkClass(isActive, theme)}
           >
             Guide
           </NavLink>
         </li>
-        <li>
+        <li className='mb-4 sm:mb-0 sm:ml-8 nav-item text-center'>
           <NavLink
             to='/SchedulePage'
-            className={({ isActive }) => navLinkClass(isActive)}
+            className={({ isActive }) => navLinkClass(isActive, theme)}
           >
             Schedule
           </NavLink>
         </li>
-        <li>
+        <li className='mb-4 sm:mb-0 sm:ml-8 nav-item text-center'>
           <NavLink
-            className={({ isActive }) => navLinkClass(isActive)}
+            className={({ isActive }) => navLinkClass(isActive, theme)}
             to='/DocsPage'
           >
             Docs
           </NavLink>
         </li>
-        <li>
+        <li className='mb-4 sm:mb-0 sm:ml-8 nav-item text-center'>
           <NavLink
-            className={({ isActive }) => navLinkClass(isActive)}
+            className={({ isActive }) => navLinkClass(isActive, theme)}
             to='/ContributorsPage'
           >
             Contributors
@@ -62,6 +80,30 @@ export default function Navbar() {
       <button onClick={toggleTheme} className='text-2xl'>
         {theme.icon}
       </button>
+
+      <div
+        className={clsx("hamburger", navbarShown && "active")}
+        onClick={toggleNavbar}
+      >
+        <span
+          className={clsx(
+            "bar",
+            theme.background === "#fff" ? "bg-black" : "bg-white"
+          )}
+        ></span>
+        <span
+          className={clsx(
+            "bar",
+            theme.background === "#fff" ? "bg-black" : "bg-white"
+          )}
+        ></span>
+        <span
+          className={clsx(
+            "bar",
+            theme.background === "#fff" ? "bg-black" : "bg-white"
+          )}
+        ></span>
+      </div>
     </nav>
   );
 }
