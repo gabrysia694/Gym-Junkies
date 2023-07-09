@@ -1,16 +1,27 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../context/theme";
-
 import jsonData from "../DB/exerciseData.json";
 import clsx from "clsx";
 
-export default function Card() {
+export default function Card({ searchQuery }) {
   const { themeName } = useContext(ThemeContext);
 
-  // Sort the exercises alphabetically
-  const sortedExercises = jsonData.sort((a, b) =>
+  // Filter the exercises based on search query
+  const filteredExercises = jsonData.filter((exercise) =>
+    exercise.exercise.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const sortedExercises = filteredExercises.sort((a, b) =>
     a.exercise.localeCompare(b.exercise)
   );
+
+  if (sortedExercises.length === 0) {
+    return <div className="flex items-center justify-center h-full">
+    <p className="text-lg text-gray-500">
+      No exercises found for the search query. Try another search term!
+    </p>
+  </div>;
+  }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 p-3 gap-x-6">
@@ -19,7 +30,7 @@ export default function Card() {
           key={index}
           className={clsx(
             "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2",
-            themeName === "light" ? "bg-white" : "bg-gray-800" 
+            themeName === "light" ? "bg-white" : "bg-gray-800"
           )}
         >
           <div className="md:flex items-center">
@@ -87,7 +98,7 @@ export default function Card() {
                         ? "text-indigo-800"
                         : "text-indigo-400",
                       "hover:text-indigo-600 font-semibol"
-                    )} 
+                    )}
                   >
                     {exercise["gh-name"]}
                   </a>
