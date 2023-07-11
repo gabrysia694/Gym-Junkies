@@ -23,7 +23,7 @@ const SchedulePage = () => {
         <h2 className="text-3xl font-bold sm:text-4xl">Follow Schedule</h2>
         <input
           placeholder="Search"
-          className="border-4 rounded-full text-lg"
+          className="border-4 rounded-full text-lg  text-black"
           onChange={search}
           value={searchValue}
         />

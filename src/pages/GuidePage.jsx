@@ -19,10 +19,12 @@ export default function GuidePage() {
         individuals driven by a desire to share our extensive knowledge and 
         expertise with others, fostering a community focused on promoting wellness and vitality.
         </p>
-        <input placeholder="Search"
-          className="border-4 rounded-full text-lg"
+        <input
+          placeholder="Search"
+          className="border-4 rounded-full text-lg  text-black"
           onChange={search}
-          value={searchValue}></input>
+          value={searchValue}
+        />
       </div>
       <Card searchQuery={searchValue} />
     </section>
