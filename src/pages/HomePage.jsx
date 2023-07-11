@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <section>
         <div className="mx-auto max-w-screen-xl min-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 overflow-x-hidden">
             <motion.div 
               initial={{ opacity: 0, x: 200 }}
               animate={{ opacity: 1, x: 0 }}
