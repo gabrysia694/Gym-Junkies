@@ -24,14 +24,14 @@ export default function Navbar() {
   return (
     <nav
       aria-label='Site Nav'
-      className='flex items-center justify-between max-w-3xl p-4 mx-auto'
+      className='flex items-center justify-between max-w-8xl p-4 mx-auto'
     >
       <a href='/'>
         <img
           src='https://user-images.githubusercontent.com/88102392/233238344-b05e3c5d-178e-4a7b-9757-60063fb0f969.png'
           className='inline-flex h-[1] w-10 items-center justify-center rounded-lg' // don't change logo's height and width here
           alt='Gym Junkies logo'
-          loading='lazy'
+          loading='lazy'  
         ></img>
       </a>
 
@@ -39,8 +39,8 @@ export default function Navbar() {
         // className='flex flex-wrap items-center justify-center gap-2 text-[1rem]'
         className={clsx(
           `fixed sm:static top-20 z-10 gap-2 text-md w-full sm:flex flex-wrap items-center justify-center nav-menu`,
-          theme.background === "#fff" ? "bg-white" : "bg-black",
-          navbarShown ? "navbar-shown" : "navbar-hidden"
+          theme.background === '#fff' ? 'bg-white' : 'bg-black',
+          navbarShown ? 'navbar-shown' : 'navbar-hidden'
         )}
         onClick={toggleNavbar}
       >
@@ -82,25 +82,25 @@ export default function Navbar() {
       </button>
 
       <div
-        className={clsx("hamburger", navbarShown && "active")}
+        className={clsx('hamburger', navbarShown && 'active')}
         onClick={toggleNavbar}
       >
         <span
           className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
+            'bar',
+            theme.background === '#fff' ? 'bg-black' : 'bg-white'
           )}
         ></span>
         <span
           className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
+            'bar',
+            theme.background === '#fff' ? 'bg-black' : 'bg-white'
           )}
         ></span>
         <span
           className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
+            'bar',
+            theme.background === '#fff' ? 'bg-black' : 'bg-white'
           )}
         ></span>
       </div>
