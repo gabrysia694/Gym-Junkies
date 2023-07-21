@@ -1,5 +1,18 @@
 [
   {
+    "exercise": "Boat Pose",
+    "instructions": [
+       "Start out by sitting on the floor,preferablly on a yoga mat, with your knees bent touching the floor.",
+       "Lean back slightly and lift your feet from the floor extending it into the sky, legs going at a slight angle or legs sticking out all the way.",
+       "Extend your arms slightly or straight out in front of you, Hold for 30-60 seconds.",
+       "Repeat this 3-4 times to get a good ab workout."
+      ],
+    "videoLink": "https://www.youtube.com/watch?v=0495rbXZMQg",
+    "gh-name": "Bnoah456",
+    "image": "https://www.nourishmovelove.com/wp-content/uploads/2020/11/Advanced-Boat-Pose-.gif"
+  },
+
+  {
     "exercise": "Bicep Curl",
     "instructions": [
       "Stand with feet about hip-width apart, with your abs engaged while holding a medium-heavy dumbells/barbell with your palm facing foward.",
@@ -622,12 +635,31 @@
 
   {
   "exercise": "Decline Push Ups",
-  "instructions": ["Perform 3 sets of 12 reps, with your feet elevated on a stable surface, maintaining a straight line from head to heels.", "Keep your hands shoulder-width apart, lower your chest towards the ground, and push back up while engaging your core.", "Adjust the height of the surface to increase or decrease the difficulty, and ensure proper form throughout the exercise."],
+  "instructions": [
+  "Perform 3 sets of 12 reps, with your feet elevated on a stable surface, maintaining a straight line from head to heels.", 
+  "Keep your hands shoulder-width apart, lower your chest towards the ground, and push back up while engaging your core.", 
+  "Adjust the height of the surface to increase or decrease the difficulty, and ensure proper form throughout the exercise."
+],
   "videoLink": " https://youtu.be/SKPab2YC8BE",
   "gh-name": "SagarSharma2809",
   "image": "https://fitnessprogramer.com/wp-content/uploads/2015/07/Decline-Push-Up.gif"
-}
+},
 
-  
-
+  {
+    "exercise": "Dumbbell Rear Delt Flys",
+    "instructions": [
+      "Stand with your feet shoulder-width apart and hold a dumbbell in each hand, palms facing inward (neutral grip). Keep your knees slightly bent and maintain a straight posture with your core engaged.",
+      "Bend forward at the waist, maintaining a slight bend in your knees. Your torso should be almost parallel to the floor. Keep your back straight and avoid rounding or arching it.",
+      "Let your arms hang down in front of you, shoulder-width apart. This is the starting position.",
+      "With a controlled motion, lift both dumbbells out to the sides, squeezing your shoulder blades together. Keep your arms straight and elbows slightly bent throughout the movement.",
+      "As you lift the dumbbells, focus on engaging your rear deltoid muscles, which are located at the back of your shoulders. Avoid using momentum or swinging your body to lift the weights.",
+      "Continue lifting the dumbbells until your arms are parallel to the floor and in line with your shoulders. Pause for a moment and feel the contraction in your rear delts.",
+      "Slowly lower the dumbbells back to the starting position, maintaining control throughout the movement.",
+      "Repeat the exercise for 8 to 12 repetitions per set.",
+      "This exercise can also be performed while seated on a bench."
+      ],
+    "videoLink": "https://www.youtube.com/watch?v=hwBu73GZn98&ab_channel=FitFatherProject-FitnessForBusyFathers",
+    "gh-name": "imbeshat",
+    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/11/dumbbell-rear-delt-fly.gif"
+  }
 ]
