@@ -54,6 +54,14 @@ export default function Navbar() {
         </li>
         <li className='mb-4 sm:mb-0 sm:ml-8 nav-item text-center'>
           <NavLink
+            to='/AddExercisePage'
+            className={({ isActive }) => navLinkClass(isActive, theme)}
+          >
+            Add Excersize
+          </NavLink>
+        </li>
+        <li className='mb-4 sm:mb-0 sm:ml-8 nav-item text-center'>
+          <NavLink
             to='/SchedulePage'
             className={({ isActive }) => navLinkClass(isActive, theme)}
           >

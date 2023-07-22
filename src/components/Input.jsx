@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Input({ label, placeholder, required = false }) {
+export default function Input({ label, placeholder, onChange, required = false }) {
   //convert label name to html-friendly format
   let htmlLabel = label.toLowerCase().replaceAll(' ', '-');
 
@@ -14,6 +14,7 @@ export default function Input({ label, placeholder, required = false }) {
         type="text"
         name={htmlLabel}
         id={htmlLabel}
+        onChange={(e)=>{onChange(e)}}
         placeholder={placeholder}
         required={required}
       />
