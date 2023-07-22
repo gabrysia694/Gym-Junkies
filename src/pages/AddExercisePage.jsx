@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 import Input from '../components/Input';
 
 export default function AddExercisePage() {
@@ -11,16 +12,28 @@ export default function AddExercisePage() {
   const [instructions2, setInstruction2] = useState('');
   const [instructions3, setInstruction3] = useState('');
   const [videoLink, setVideoLink] = useState('');
-  const [author, setauth] = useState('');
+  const [auth, setauth] = useState('');
+  const [isRecaptchaVerified, setRecaptchaVerified] = useState(false);
+
+  const handleRecaptchaChange = (value) => {
+    // This callback will be triggered when the user completes the reCAPTCHA challenge.
+    // If the value is truthy, it means the user has been verified.
+    setRecaptchaVerified(!!value);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!isRecaptchaVerified) {
+      alert('Please complete the reCAPTCHA challenge.');
+      return;
+    }
     try {
       // Create a new exercise object with the form data
 
       // Create a new exercise object with the form data
       const newExercise = {
         'exercise': exerciseName,
-        'gh-name': author,
+        'gh-name': auth,
         'image': imageURL,
         'instructions': [
           instruction1,
@@ -57,7 +70,7 @@ export default function AddExercisePage() {
   
     // Use the same conversion to HTML-friendly format for the name
     const htmlName = name.toLowerCase().replaceAll(' ', '-');
-    if (htmlName === "author") {
+    if (htmlName === "authorInput") {
       setauth(value);
     } else if (htmlName === "excersize-name") {
       setExerciseName(value);
@@ -91,10 +104,10 @@ export default function AddExercisePage() {
           required
         />
         <Input
-          label={'Author (Github Username)'}
-          placeholder={'Username'}
-          name="author"
-          value={author}
+          label={'Author (Github username)'}
+          placeholder={'User'}
+          name="authorInput"
+          value={auth}
           onChange={handleChange}
           required
         />
@@ -137,6 +150,10 @@ export default function AddExercisePage() {
           value={videoLink}
           onChange={handleChange}
           required
+        />
+        <ReCAPTCHA
+          sitekey="token" // Replace this with your actual reCAPTCHA site key
+          onChange={handleRecaptchaChange}
         />
 
         

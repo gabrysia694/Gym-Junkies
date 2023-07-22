@@ -20,22 +20,6 @@ Thank you for considering contributing to Gym-Junkies! Please take a moment to r
    or
    >  `npm run dev`
 
-## Add your card
-
-1. Go to `src/DB/exerciseData.json`
-2. Make sure that your exercise doesn't already exsist on the page
-3. Add the following code to the end of the file
-
-```json
-{
-  "exercise": "Exercise Name",
-  "instructions": ["Instruction 1", "Instruction 2", "Instruction 3"],
-  "videoLink": " Youtube video link",
-  "gh-name": "Your Github username",
-  "image": "Excercise image link"
-}
-```
-
 # Code of Conduct
 
 We have adopted a Code of Conduct that we expect all contributors to adhere to. Please read the [CODE_OF_CONDUCT.md](https://github.com/gabrysia694/Gym-Junkies/blob/main/CODE_OF_CONDUCT.md) file in the repository before making any contributions.
