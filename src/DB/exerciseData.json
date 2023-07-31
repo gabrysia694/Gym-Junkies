@@ -675,7 +675,6 @@
     "gh-name": "imbeshat",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/military-press.gif"
   },
-
   {
     "exercise": "Burpee",
     "instructions": [
@@ -687,6 +686,45 @@
       ],
     "videoLink": "https://www.youtube.com/watch?v=r6MBg8-FlD4",
     "gh-name": "vijeshprajapati",
+    "image": "https://www.spotebi.com/wp-content/uploads/2014/10/burpees-exercise-illustration.gif"
+     },
+   {
+    "exercise": "Zottman Curls",
+    "instructions": [
+    " Start with a regular dumbbell curl, but at the top of the movement, rotate your wrists so your palms are facing down.",
+    "Lower the weights with this grip, and then rotate your wrists back up to the starting position",
+    "This exercise engages different parts of the biceps and forearms.",
+    "Perform 8 to 12 reps for each set."
+    ],
+    "videoLink": "https://www.youtube.com/watch?v=ZrpRBgswtHs",
+    "gh-name": "Debaditya-Som",
+    "image": "https://images.app.goo.gl/nnDiF9uAmL2RRNX7Af"
+
+  },
+  {
+    "exercise": "Bicycle Crunch",
+    "instructions": [
+    "Lie on your back with your hands behind your head and your legs lifted off the ground.",
+    "Bring one knee towards your chest while simultaneously rotating your torso, bringing the opposite elbow towards the knee.",
+    "Switch sides in a pedaling motion, like riding a bicycle.",
+    "Perform 20 to 30 reps for each set."
+    ],
+    "videoLink": "https://youtu.be/1we3bh9uhqY",
+    "gh-name": "Anushka-Bhowmick",
+    "image": "https://newlife.com.cy/wp-content/uploads/2019/02/00031301-air-bike-m_waist_FIX_360.gif"
+    },
+  {
+    "exercise": "Dumbell Burpees",
+    "instructions": [
+      "To begin performing the dumbbell burpee, the exerciser must first select an appropriately weighted pair of dumbbells at a level that may be considered moderate at their fitness experience and body weight.",
+      "Once selected, the exerciser will stand with their feet approximately hip width apart and a dumbbell gripped in each hand, before bracing their core, facing their head forward so as to maintain a neutral spinal column and then bending over.",
+      "The dumbbells should be brought to the ground beneath the exerciser’s shoulders as they move their feet backwards, essentially recreating the plank or push-up position over the floor with the pair of dumbbells still gripped in each hand.",
+      "The exerciser will then move their feet forward once more in a rapid motion, simultaneously thrusting their hips forward and raising the dumbbells from the ground with a straight back and a chest that is puffed out in a form similar to that of a dumbbell deadlift.",
+      "Depending on the particular variation of the dumbbell burpee, the exerciser may then perform a squat after this particular section of the repetition, or otherwise simply return to the original starting position so as to perform another repetition of the exercise."
+      ],
+    "videoLink": "https://youtu.be/qLBImHhCXSw",
+    "gh-name": "sinjini05",
     "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/burpee-movement.gif"
   }
 ]
+
