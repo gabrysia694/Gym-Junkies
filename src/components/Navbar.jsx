@@ -5,10 +5,10 @@ import clsx from "clsx";
 
 function navLinkClass(isActive, theme) {
   return clsx(
-    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-slate-400",
-    theme.background === "#fff" ? "text-black" : "text-white",
+    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-sky-500",
+    theme.background === "#fff" ? "text-black hover:bg-sky-200" : "text-white",
     {
-      "bg-slate-400": isActive,
+      "bg-sky-500": isActive,
     }
   );
 }
