@@ -21,8 +21,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-icons:
-    specifier: ^4.9.0
-    version: 4.9.0(react@18.2.0)
+    specifier: ^4.11.0
+    version: 4.11.0(react@18.2.0)
   react-router-dom:
     specifier: ^6.13.0
     version: 6.13.0(react-dom@18.2.0)(react@18.2.0)
@@ -323,6 +323,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -2193,8 +2194,8 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
-  /react-icons@4.9.0(react@18.2.0):
-    resolution: {integrity: sha512-ijUnFr//ycebOqujtqtV9PFS7JjhWg0QU6ykURVHuL4cbofvRCf3f6GMn9+fBktEFQOIVZnuAYLZdiyadRQRFg==}
+  /react-icons@4.11.0(react@18.2.0):
+    resolution: {integrity: sha512-V+4khzYcE5EBk/BvcuYRq6V/osf11ODUM2J8hg2FDSswRrGvqiYUYPRy4OdrWaQOBj4NcpJfmHZLNaD+VH0TyA==}
     peerDependencies:
       react: '*'
     dependencies:
