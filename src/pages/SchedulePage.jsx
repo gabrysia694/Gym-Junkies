@@ -27,7 +27,12 @@ const SchedulePage = () => {
           placeholder="Search"
           onChange={search}
           value={searchValue}
-          className="bg-gray-50 outline-none border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          className={clsx(
+            "outline-none border text-sm rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5",
+            themeName === "light"
+            ? "bg-gray-50 border-gray-300 text-gray-900"
+            : "bg-gray-700 border-gray-600 text-white placeholder-gray-400 "
+            )}
           required
         />
       </div>
@@ -37,8 +42,10 @@ const SchedulePage = () => {
           <div
             key={category.id}
             className={clsx(
-              "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2",
-              themeName === "light" ? "bg-white" : "bg-gray-800"
+              "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-indigo-400/50 cursor-pointer border-2",
+              themeName === "light"
+                ? "bg-white border-white"
+                : "bg-gray-700 border-gray-800"
             )}
           >
             <div className="md:flex items-center h-full">
@@ -51,7 +58,7 @@ const SchedulePage = () => {
               <div className="p-8">
                 <div
                   className={clsx(
-                    "uppercase italic tracking-wide text-lg font-semibold",
+                    "uppercase tracking-wide text-2xl font-bold",
                     themeName === "light"
                       ? "text-indigo-800"
                       : "text-indigo-400"

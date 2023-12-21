@@ -7,10 +7,9 @@ import { useEffect } from "react";
 
 function navLinkClass(isActive, theme) {
   return clsx(
-    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-sky-500",
-    theme.background === "#fff" ? "text-black hover:bg-sky-200" : "text-white",
+    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-indigo-400 duration-100",
     {
-      "bg-sky-500": isActive,
+      "bg-indigo-400": isActive,
     }
   );
 }
@@ -56,7 +55,13 @@ export default function Navbar() {
   return (
     <nav
       aria-label="Site Nav"
-      className="flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm"
+      className={clsx(
+        `flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 z-10 drop-shadow-sm`
+      )}
+      style={{
+        background: theme.navbar.background,
+        color: theme.navbar.color,
+      }}
     >
       <a href="/">
         <img
@@ -72,9 +77,9 @@ export default function Navbar() {
         // className='flex flex-wrap items-center justify-center gap-2 text-[1rem]'
         className={clsx(
           `fixed sm:static top-20 z-10 gap-2 text-md w-full sm:flex flex-wrap items-center justify-center nav-menu`,
-          theme.background === "#fff" ? "bg-white" : "bg-black",
           navbarShown ? "navbar-shown" : "navbar-hidden"
         )}
+        style={{ backgroundColor: theme.background }}
         onClick={toggleNavbar}
       >
         <li className="mb-4 sm:mb-0 sm:ml-8 nav-item text-center">
@@ -113,29 +118,21 @@ export default function Navbar() {
       <button onClick={toggleTheme} className="text-2xl">
         {theme.icon}
       </button>
-
       <div
-        className={clsx("hamburger", navbarShown && "active")}
+        className={clsx("hamburger", { active: navbarShown })}
         onClick={toggleNavbar}
+        style={{
+          background: theme.background,
+          color: theme.color,
+        }}
       >
-        <span
-          className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
-          )}
-        ></span>
-        <span
-          className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
-          )}
-        ></span>
-        <span
-          className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
-          )}
-        ></span>
+        {[1, 2, 3].map((index) => (
+          <span
+            key={index}
+            className={clsx("bar")}
+            style={{ backgroundColor: theme.hamburger.color }}
+          />
+        ))}
       </div>
     </nav>
   );
