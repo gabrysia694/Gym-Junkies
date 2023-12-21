@@ -29,18 +29,16 @@ export default function Card({ searchQuery }) {
         <div
           key={index}
           className={clsx(
-            "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-purple-500 border-2",
-            themeName === "light" ? "bg-white" : "bg-gray-800"
+            "max-w-md mx-auto my-4 rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:border-indigo-400/50 border-2 cursor-pointer",
+            themeName === "light" ? "bg-white border-white" : "bg-gray-700 border-gray-800"
           )}
         >
           <div className="md:flex items-center">
-            <div className="p-4  w-4/6 mx-auto md:w-3/6">
+            <div className="p-4 w-4/6 mx-auto md:w-3/6">
               <img
                 className={clsx(
-                  "object-cover h-full mx-auto md:w-full bg-white border-2",
-                  themeName === "light"
-                    ? "border-white"
-                    : "border-indigo-400 rounded-xl"
+                  "object-cover h-full mx-auto md:w-full bg-white rounded-lg",
+
                 )}
                 loading="lazy"
                 src={exercise.image}
@@ -51,7 +49,7 @@ export default function Card({ searchQuery }) {
             <div className="p-4 w-full md:w-3/6">
               <div
                 className={clsx(
-                  "uppercase italic tracking-wide text-xl font-semibold",
+                  "uppercase tracking-wide text-xl font-semibold",
                   themeName === "light" ? "text-indigo-800" : "text-indigo-400"
                 )}
               >
