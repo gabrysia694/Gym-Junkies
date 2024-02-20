@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import GuidePage from './pages/GuidePage';
+import TdeeCalculatorPage from "./pages/TdeeCalculatorPage";
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import DocsPage from './pages/DocsPage';
@@ -31,6 +32,7 @@ function App() {
         <Route path='/DocsPage' element={<DocsPage />} />
         <Route path='/ContributorsPage' element={<ContributorsPage />} />
         <Route path='/AddExercisePage' element={<AddExercisePage />} />
+        <Route path='/TdeeCalculatorPage' element={<TdeeCalculatorPage/>} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />

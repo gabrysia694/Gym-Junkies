@@ -56,15 +56,13 @@ export default function Navbar() {
   return (
     <nav
       aria-label="Site Nav"
-      className="flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm"
-    >
+      className="flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm">
       <a href="/">
         <img
           src="https://user-images.githubusercontent.com/88102392/233238344-b05e3c5d-178e-4a7b-9757-60063fb0f969.png"
           className="inline-flex h-[1] w-10 items-center justify-center rounded-lg" // don't change logo's height and width here
           alt="Gym Junkies logo"
-          loading="lazy"
-        ></img>
+          loading="lazy"></img>
       </a>
 
       <ul
@@ -75,38 +73,41 @@ export default function Navbar() {
           theme.background === "#fff" ? "bg-white" : "bg-black",
           navbarShown ? "navbar-shown" : "navbar-hidden"
         )}
-        onClick={toggleNavbar}
-      >
-        <li className="mb-4 sm:mb-0 sm:ml-8 nav-item text-center">
-          <NavLink
-            to="/GuidePage"
-            className={({ isActive }) => navLinkClass(isActive, theme)}
-          >
+        onClick={toggleNavbar}>
+        <li className=" sm:mb-0 sm:ml-8 nav-item text-center">
+          <NavLink to="/GuidePage" className={({ isActive }) => navLinkClass(isActive, theme)}>
             Guide
           </NavLink>
         </li>
-        <li className="mb-4 sm:mb-0 sm:ml-8 nav-item text-center">
-          <NavLink
-            to="/SchedulePage"
-            className={({ isActive }) => navLinkClass(isActive, theme)}
-          >
+        <li className=" sm:mb-0 sm:ml-8 nav-item text-center">
+          <NavLink to="/SchedulePage" className={({ isActive }) => navLinkClass(isActive, theme)}>
             Schedule
           </NavLink>
         </li>
-        <li className="mb-4 sm:mb-0 sm:ml-8 nav-item text-center">
-          <NavLink
-            className={({ isActive }) => navLinkClass(isActive, theme)}
-            to="/DocsPage"
-          >
+        <li className=" sm:mb-0 sm:ml-8 nav-item text-center">
+          <NavLink className={({ isActive }) => navLinkClass(isActive, theme)} to="/DocsPage">
             Docs
           </NavLink>
         </li>
-        <li className="mb-4 sm:mb-0 sm:ml-8 nav-item text-center">
+        <li className=" sm:mb-0 sm:ml-8 nav-item text-center">
           <NavLink
             className={({ isActive }) => navLinkClass(isActive, theme)}
-            to="/ContributorsPage"
-          >
+            to="/ContributorsPage">
             Contributors
+          </NavLink>
+        </li>
+        <li className=" sm:mb-0 sm:ml-8 nav-item text-center">
+          <NavLink
+            className={({ isActive }) => navLinkClass(isActive, theme)}
+            to="/AddExercisePage">
+            New Exercise
+          </NavLink>
+        </li>
+        <li className=" sm:mb-0 sm:ml-8 nav-item text-center">
+          <NavLink
+            className={({ isActive }) => navLinkClass(isActive, theme)}
+            to="/TdeeCalculatorPage">
+            TDEE Calculator
           </NavLink>
         </li>
       </ul>
@@ -114,28 +115,10 @@ export default function Navbar() {
         {theme.icon}
       </button>
 
-      <div
-        className={clsx("hamburger", navbarShown && "active")}
-        onClick={toggleNavbar}
-      >
-        <span
-          className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
-          )}
-        ></span>
-        <span
-          className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
-          )}
-        ></span>
-        <span
-          className={clsx(
-            "bar",
-            theme.background === "#fff" ? "bg-black" : "bg-white"
-          )}
-        ></span>
+      <div className={clsx("hamburger", navbarShown && "active")} onClick={toggleNavbar}>
+        <span className={clsx("bar", theme.background === "#fff" ? "bg-black" : "bg-white")}></span>
+        <span className={clsx("bar", theme.background === "#fff" ? "bg-black" : "bg-white")}></span>
+        <span className={clsx("bar", theme.background === "#fff" ? "bg-black" : "bg-white")}></span>
       </div>
     </nav>
   );
