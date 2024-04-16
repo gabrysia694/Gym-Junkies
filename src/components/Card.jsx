@@ -3,12 +3,31 @@ import { ThemeContext } from "../context/theme";
 import jsonData from "../DB/exerciseData.json";
 import clsx from "clsx";
 
+//Added filtering exercises by group muscular
+//Groups: 
+/*
+Abs
+Back
+Biceps
+Calves
+Chest
+Forearms
+Fullbody
+Glutes
+Hamstring
+Lower back
+Quadriceps
+Shoulder
+Traps
+Triceps
+*/
+
 export default function Card({ searchQuery }) {
   const { themeName } = useContext(ThemeContext);
 
   // Filter the exercises based on search query
   const filteredExercises = jsonData.filter((exercise) =>
-    exercise.exercise.toLowerCase().includes(searchQuery.toLowerCase())
+    exercise.exercise.toLowerCase().includes(searchQuery.toLowerCase()) || exercise.muscleGroup.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const sortedExercises = filteredExercises.sort((a, b) =>
@@ -51,11 +70,21 @@ export default function Card({ searchQuery }) {
             <div className="p-4 w-full md:w-3/6">
               <div
                 className={clsx(
-                  "uppercase italic tracking-wide text-xl font-semibold",
-                  themeName === "light" ? "text-indigo-800" : "text-indigo-400"
-                )}
+                  "uppercase tracking-wide text-xl font-semibold flex items-center justify-between")}
               >
-                {exercise.exercise}
+                <div className={clsx(
+                  "uppercase italic tracking-wide text-xl font-semibold",
+                  themeName === "light" ? "text-indigo-800" : "text-indigo-400")}
+                >
+                  {exercise.exercise}
+                </div>
+
+                <div className={clsx(
+                  "uppercase tracking-wide text-xs font-semibold ms-2 rounded-md ps-2 pe-2",
+                  themeName === "light" ? "text-white bg-indigo-800" : "text-gray-900 bg-indigo-400")}
+                >
+                  {exercise.muscleGroup}
+                </div>
               </div>
               <div style={{ overflowY: "auto", height: "30vh" }}>
                 <ul
