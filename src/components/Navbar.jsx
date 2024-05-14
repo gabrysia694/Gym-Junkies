@@ -7,10 +7,10 @@ import { useEffect } from "react";
 
 function navLinkClass(isActive, theme) {
   return clsx(
-    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-sky-500",
-    theme.background === "#fff" ? "text-black hover:bg-sky-200" : "text-white",
+    "block mx-auto w-1/2 sm:w-full rounded-lg p-1 px-3 py-2 hover:bg-indigo-400",
+    theme.background === "#fff" ? "text-black hover:bg-indigo-200" : "text-white",
     {
-      "bg-sky-500": isActive,
+      "bg-indigo-500 text-white": isActive,
     }
   );
 }
@@ -56,7 +56,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label="Site Nav"
-      className="flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm"
+      className={clsx("flex items-center backdrop-blur-lg justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-zinc-300 drop-shadow-sm", theme.background === "#fff"? "bg-white/60  border-b" : "bg-black/60")}
     >
       <a href="/">
         <img
@@ -72,7 +72,6 @@ export default function Navbar() {
         // className='flex flex-wrap items-center justify-center gap-2 text-[1rem]'
         className={clsx(
           `fixed sm:static top-20 z-10 gap-2 text-md w-full sm:flex flex-wrap items-center justify-center nav-menu`,
-          theme.background === "#fff" ? "bg-white" : "bg-black",
           navbarShown ? "navbar-shown" : "navbar-hidden"
         )}
         onClick={toggleNavbar}
@@ -111,7 +110,7 @@ export default function Navbar() {
         </li>
       </ul>
       <button onClick={toggleTheme} className="text-2xl">
-        {theme.icon}
+        <theme.icon />
       </button>
 
       <div

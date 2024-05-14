@@ -1,11 +1,12 @@
 import React, { createContext, useState, useEffect, useLayoutEffect } from "react"
+import { FaLightbulb, FaMoon } from "react-icons/fa"
 
 const ThemeContext = createContext("light")
 
 const lightTheme = {
   background: "#fff",
   color: "#000",
-  icon: "☀️",
+  icon: FaMoon,
   button: {
     buttonBgColor: "#000",
     buttonTextColor: "#fff",
@@ -19,7 +20,7 @@ const lightTheme = {
 const darkTheme = {
   background: "#000",
   color: "#fff",
-  icon: "🌙",
+  icon: FaLightbulb,
   button: {
     buttonBgColor: "#fff",
     buttonTextColor: "#000",
