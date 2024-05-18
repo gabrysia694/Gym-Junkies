@@ -11,6 +11,7 @@ import { ThemeContext } from './context/theme';
 import PageNotFound from './components/PageNotFound';
 import ContributorsPage from './pages/ContributorsPage';
 import SchedulePage from './pages/SchedulePage';
+import { ExercisePage } from './pages/ExercisePage';
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/GuidePage' element={<GuidePage />} />
+        <Route path='/GuidePage/:exerciseName' element={<ExercisePage />} />
         <Route path='/SchedulePage' element={<SchedulePage />} />
         <Route path='/DocsPage' element={<DocsPage />} />
         <Route path='/ContributorsPage' element={<ContributorsPage />} />
