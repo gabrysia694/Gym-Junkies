@@ -775,6 +775,54 @@
     "videoLink": "https://www.youtube.com/watch?v=6Z15_WdXmVw&t=3s&ab_channel=BuffDudes",
     "gh-name": "imbeshat",
     "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Arnold-Press.gif"
+  },
+  {
+    "exercise": "Dumbbell Pullover",
+    "instructions": [
+      "Lie on a flat bench with your upper back and head supported.",
+      "Hold a dumbbell with both hands directly above your chest.",
+      "Slowly lower the dumbbell back behind your head until you feel a stretch.",
+      "Lift the dumbbell back to the starting position above your chest."
+      ],
+    "videoLink": "https://www.youtube.com/watch?v=FK4rHfWKEac",
+    "gh-name": "KeithBrosch",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Pullover.gif"
+  },
+  {
+    "exercise": "Dumbbell Shrugs",
+    "instructions": [
+      "Stand with feet shoulder-width apart, holding a dumbbell in each hand by your sides, palms facing your body.",
+      "Lift your shoulders straight up towards your ears as high as possible in a shrugging motion.",
+      "Hold the shrug at the top for a moment to squeeze your traps.",
+      "Lower your shoulders back down to the starting position, focusing on the contraction of your trapezius muscles throughout the movement."
+      ],
+    "videoLink": "https://www.youtube.com/watch?v=cJRVVxmytaM",
+    "gh-name": "KeithBrosch",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Dumbbell-Shrug.gif"
+  },
+  {
+    "exercise": "Dumbbell Fly",
+    "instructions": [
+      "Lie on a flat bench with a dumbbell in each hand, arms extended above your chest, palms facing inward.",
+      "Lower the dumbbells out to the sides in a wide arc, keeping a slight bend in your elbows.",
+      "Stop when your elbows are level with your shoulders or when you feel a stretch in your chest.",
+      "Bring the dumbbells back together above your chest, squeezing your chest muscles, focusing on a controlled movement and maintaining tension in your chest throughout."
+      ],
+    "videoLink": "https://www.youtube.com/watch?v=eozdVDA78K0",
+    "gh-name": "KeithBrosch",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Fly.gif"
+  },
+  {
+    "exercise": "Dumbbell Goblet Squat",
+    "instructions": [
+      "Stand with your feet slightly wider than shoulder-width apart, holding a dumbbell vertically by one end with both hands at chest level.",
+      "Lower your body by bending your knees and hips, keeping your back straight and chest up.",
+      "Squat down until your thighs are parallel to the ground or slightly lower, ensuring your knees track over your toes.",
+      "Push through your heels to stand back up to the starting position, focusing on keeping your core engaged and maintaining good posture throughout the movement."
+      ],
+    "videoLink": "https://www.youtube.com/watch?v=MeIiIdhvXT4",
+    "gh-name": "KeithBrosch",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2023/01/Dumbbell-Goblet-Squat.gif"
   }
 ]
 
