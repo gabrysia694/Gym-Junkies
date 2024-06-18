@@ -56,7 +56,10 @@ export default function Navbar() {
   return (
     <nav
       aria-label="Site Nav"
-      className="flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm"
+      className={clsx(
+        `flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm`,
+        theme.background === "#fff" ? "bg-white" : "bg-black"
+      )}
     >
       <a href="/">
         <img
