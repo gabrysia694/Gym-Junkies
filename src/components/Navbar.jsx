@@ -1,9 +1,7 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useRef, useEffect } from "react";
 import { ThemeContext } from "../context/theme";
 import { NavLink } from "react-router-dom";
 import clsx from "clsx";
-import { useRef } from "react";
-import { useEffect } from "react";
 
 function navLinkClass(isActive, theme) {
   return clsx(
@@ -29,7 +27,7 @@ export default function Navbar() {
         navbarRef.current &&
         !navbarRef.current.contains(event.target)
       ) {
-        setNavbarShown(!false);
+        setNavbarShown(true);
         console.log("outside");
       }
     }
@@ -57,6 +55,9 @@ export default function Navbar() {
     <nav
       aria-label="Site Nav"
       className="flex items-center justify-between max-w-8xl p-4 mx-auto sticky top-0 bg-light z-10 border-b drop-shadow-sm"
+      style={{
+        backgroundColor: theme.background
+      }}
     >
       <a href="/">
         <img
