@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two-Factor Authentication - Gym Junkies</title>
+</head>
+<body>
+  <h1>Two-Factor Authentication (Demo)</h1>
+
+  <p>Enter the 6-digit code (for demo, use 123456).</p>
+
+  <input type="text" id="code" maxlength="6" placeholder="Enter code">
+  <button type="button" onclick="verifyCode()">Verify</button>
+
+  <p id="result"></p>
+
+  <script>
+    function verifyCode() {
+      var input = document.getElementById('code').value;
+      var result = document.getElementById('result');
+
+      if (input === '123456') {
+        result.textContent = '2FA success – you are logged in (demo only).';
+      } else {
+        result.textContent = 'Incorrect code. Try again.';
+      }
+    }
+  </script>
+</body>
+</html>

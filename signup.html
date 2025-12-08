@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Gym Junkies</title>
+</head>
+<body>
+  <h1>Sign Up</h1>
+
+  <form>
+    <label>
+      Name:
+      <input type="text" name="name" required>
+    </label>
+    <br>
+
+    <label>
+      Email:
+      <input type="email" name="email" required>
+    </label>
+    <br>
+
+    <label>
+      Password:
+      <input type="password" name="password" required>
+    </label>
+    <br>
+
+    <label>
+      Confirm Password:
+      <input type="password" name="confirm_password" required>
+    </label>
+    <br>
+
+    <button type="button" onclick="goToSignIn()">Create Account (Demo)</button>
+  </form>
+
+  <script>
+    function goToSignIn() {
+      // In a real app you would send data to a backend.
+      // For this demo we just go to the sign in page.
+      window.location.href = "signin.html";
+    }
+  </script>
+</body>
+</html>

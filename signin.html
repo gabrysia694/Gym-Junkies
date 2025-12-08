@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - Gym Junkies</title>
+</head>
+<body>
+  <h1>Sign In</h1>
+
+  <form>
+    <label>
+      Email:
+      <input type="email" name="email" required>
+    </label>
+    <br>
+
+    <label>
+      Password:
+      <input type="password" name="password" required>
+    </label>
+    <br>
+
+    <button type="button" onclick="goToTwoFactor()">Sign In (Demo)</button>
+  </form>
+
+  <script>
+    function goToTwoFactor() {
+      // In a real app, you would verify the user on the server.
+      // For this demo we just go to the 2FA page.
+      window.location.href = "twofactor.html";
+    }
+  </script>
+</body>
+</html>

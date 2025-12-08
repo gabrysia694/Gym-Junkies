@@ -36,10 +36,75 @@
   <!-- Theme color -->
   <meta name="theme-color" content="#FFFFFF">
   <title>Gym Junkies</title>
+
+  <style>
+    /* Minimal header styling so the login button is visible before React loads */
+    :root { font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    .topbar {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:1rem;
+      padding:0.75rem 1rem;
+      border-bottom:1px solid rgba(0,0,0,0.06);
+      background:#fff;
+      position:sticky;
+      top:0;
+      z-index:50;
+    }
+    .brand { display:flex; align-items:center; gap:.5rem; text-decoration:none; color:inherit; }
+    .brand img { height:34px; width:34px; object-fit:cover; border-radius:6px; }
+    .nav-actions { display:flex; gap:.5rem; align-items:center; }
+    .btn {
+      padding:.45rem .75rem;
+      border-radius:8px;
+      border:1px solid rgba(0,0,0,0.08);
+      background:#f8fafc;
+      cursor:pointer;
+      font-weight:600;
+    }
+    .btn-primary {
+      background:#2563eb; color:white; border-color:transparent;
+    }
+    .container { max-width:1100px; margin:1.25rem auto; padding:0 1rem; }
+    .hero { padding:2rem 0; text-align:center; }
+  </style>
 </head>
 
 <body>
-  <div id="root"></div>
+  <!-- Basic topbar with Login button linking to SPA route /auth -->
+  <header class="topbar" role="banner">
+    <a class="brand" href="/" aria-label="Gym Junkies home">
+      <img src="https://user-images.githubusercontent.com/88102392/233238344-b05e3c5d-178e-4a7b-9757-60063fb0f969.png" alt="Gym Junkies logo"/>
+      <div>
+        <strong>Gym Junkies</strong><div style="font-size:0.85rem;color:#555">Fitness community</div>
+      </div>
+    </a>
+
+    <nav class="nav-actions" aria-label="Primary">
+     <nav>
+  <a href="signup.html">Sign Up</a>
+  <a href="signin.html">Sign In</a>
+</nav>
+
+    </nav>
+  </header>
+
+  <main id="root">
+    <!-- React will mount here -->
+    <section class="container hero" aria-hidden="true">
+      <h1>Welcome to Gym Junkies</h1>
+      <p>Sign in to save workouts, manage your profile, and connect with others.</p>
+      <p><a href="/auth" class="btn btn-primary">Open Sign In</a></p>
+    </section>
+  </main>
+
+  <noscript>
+    <div style="padding:1rem;background:#fffbeb;color:#92400e;text-align:center;">
+      This site requires JavaScript to function. Please enable JavaScript in your browser.
+    </div>
+  </noscript>
+
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
